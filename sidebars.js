@@ -1,6 +1,6 @@
 module.exports = {
   sidebar: {
-    Intro: ["intro"],
+    General: ["intro"],
     Contribute: ["contributing"]
   }
 };
