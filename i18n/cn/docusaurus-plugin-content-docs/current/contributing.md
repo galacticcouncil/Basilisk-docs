@@ -1,98 +1,98 @@
 ---
 id: contributing
-title: 撰写文件
+title: Writing Docs
 ---
 
-您可以使用 **[GitHub 风格的 Markdown 语法](https://github.github.com/gfm/)** 编写内容。
+You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
-## Markdown 语法 {#markdown-syntax}
+## Markdown Syntax {#markdown-syntax}
 
-在设计基于 markdown 的 Docusaurus 网站时，用作示例页面。
+To serve as an example page when styling markdown based Docusaurus sites.
 
-## 标题 {#headers}
+## Headers {#headers}
 
-# H1 - 创建最佳文档 {#h1---create-the-best-documentation}
+# H1 - Create the best documentation {#h1---create-the-best-documentation}
 
-## H2 - 创建最佳文档 {#h2---create-the-best-documentation}
+## H2 - Create the best documentation {#h2---create-the-best-documentation}
 
-### H3 - 创建最佳文档 {#h3---create-the-best-documentation}
+### H3 - Create the best documentation {#h3---create-the-best-documentation}
 
-#### H4 - 创建最佳文档 {#h4---create-the-best-documentation}
+#### H4 - Create the best documentation {#h4---create-the-best-documentation}
 
-##### H5 - 创建最佳文档 {#h5---create-the-best-documentation}
+##### H5 - Create the best documentation {#h5---create-the-best-documentation}
 
-###### H6 - 创建最佳文档 {#h6---create-the-best-documentation}
-
----
-
-## 重点 {#emphasis}
-
-强调：又称斜体，可在文字前后添加 *单星号* 或 _下划线_ 。
-
-重点突出：又称黑体，可在文字前后添加 **双星号** 或 _下划线_ 。
-
-组合强调：可在文字前后同时添加 **双星号和_下划线_** 。
-
-删除线：在文字前后添加两个波浪号 ~~这是啥东东？~~ 。
+###### H6 - Create the best documentation {#h6---create-the-best-documentation}
 
 ---
 
-## 目录 {#lists}
+## Emphasis {#emphasis}
 
-1. 首个目录项
-1. 另一目录项
-   - 无序号子目录
-1. 实际数字并不重要，只是一个数字
-   1. 有序号子目录
-1. 再一个目录项
+Emphasis, aka italics, with *asterisks* or _underscores_.
 
-* 无序子目录可以使用星号
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
 
-- 或减号
+Combined emphasis with **asterisks and _underscores_**.
 
-+ 或加号
+Strikethrough uses two tildes. ~~Scratch this.~~
 
 ---
 
-## 链接 {#links}
+## Lists {#lists}
 
-[内嵌型链接](https://www.google.com/)
+1. First ordered list item
+1. Another item
+   - Unordered sub-list.
+1. Actual numbers don't matter, just that it's a number
+   1. Ordered sub-list
+1. And another item.
 
-[标题内嵌型链接](https://www.google.com/ "Google's Homepage")
+* Unordered list can use asterisks
 
-[参考型链接][arbitrary case-insensitive reference text]
+- Or minuses
 
-[用数字定义的参考型链接][1]
++ Or pluses
 
-或留空并使用[链接文本本身]
+---
 
-URL和尖括号中的URL，将自动变为链接。 http://www.example.com/ 或 <http://www.example.com/> ，有时是 example.com（举例，不在 GitHub 上）。
+## Links {#links}
 
-一些文本表明参考链接可以在以后使用。
+[I'm an inline-style link](https://www.google.com/)
+
+[I'm an inline-style link with title](https://www.google.com/ "Google's Homepage")
+
+[I'm a reference-style link][arbitrary case-insensitive reference text]
+
+[You can use numbers for reference-style link definitions][1]
+
+Or leave it empty and use the [link text itself].
+
+URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ or <http://www.example.com/> and sometimes example.com (but not on GitHub, for example).
+
+Some text to show that the reference links can follow later.
 
 [arbitrary case-insensitive reference text]: https://www.mozilla.org/
 [1]: http://slashdot.org/
-[链接文本本身]: http://www.reddit.com/
+[link text itself]: http://www.reddit.com/
 
 ---
 
-## 图片 {#images}
+## Images {#images}
 
-这是我们的标志（悬停以查看标题文本）:
+Here's our logo (hover to see the title text):
 
-内嵌型： ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png '标志标题文本 1')
+Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
 
-参考型： ![alt text][logo]
+Reference-style: ![alt text][logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png '标志标题文本 2'
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
 
-通过提供文件路径，可以使用任何文件夹中的图像。路径应指向 markdown 文件。
+Images from any folder can be used by providing path to file. Path should be relative to markdown file.
 
 ![img]{useBaseUrl('/static/img/logo.svg')}
 
 ---
 
-## 代码 {#code}
+## Code {#code}
 
 ```javascript
 var s = 'JavaScript syntax highlighting';
@@ -117,9 +117,9 @@ function highlightMe() {
 
 ---
 
-## 表格 {#tables}
+## Tables {#tables}
 
-冒号（:），可用于列的对齐，示例如下：
+Colons can be used to align columns.
 
 | Tables        |      Are      |   Cool |
 | ------------- | :-----------: | -----: |
@@ -127,51 +127,48 @@ function highlightMe() {
 | col 2 is      |   centered    |   \$12 |
 | zebra stripes |   are neat    |    \$1 |
 
-每个标题单元格，至少须有 3 个破折号（-）。 外框线（|）是可选的，您不需要把原始 Markdown 排列得很漂亮（会自动排列整齐）。 您也可以使用内嵌 Markdown 。
+There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
 
 | Markdown | Less      | Pretty     |
 | -------- | --------- | ---------- |
-    _Still_  | `renders` | **nicely** 
+| _Still_  | `renders` | **nicely** |
 | 1        | 2         | 3          |
 
 ---
 
-## 块引用 {#blockquotes}
+## Blockquotes {#blockquotes}
 
-> 电子邮件中的块引用非常有用，可以模拟回复文本。该行是同一引用的一部分。
+> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
 
-引用断开
+Quote break.
 
-> 这一行很长，当它换行时仍会被正确引用。 哦，boy，让我们继续，确保它够长，以满足所有人的实际需要。哦，您也可以将 **Markdown** _放入_ 块引用中。
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
 
 ---
 
-## 内嵌 HTML {#inline-html}
+## Inline HTML {#inline-html}
 
 <dl>
-  <dt>定义清单</dt>
-  <dd>是人们有时会用到的东西。</dd>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
 
-  <dt>Markdown 在 HTML 中</dt>
-  <dd> *不* 是 **很** 好用。使用 HTML <em>标记</em>。</dd>
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
 
 ---
 
-## 换行 {#line-breaks}
+## Line Breaks {#line-breaks}
 
-这是我们要开始的第一行。
+Here's a line for us to start with.
 
+This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
 
-本行与上面一行之间，有两个换行符，因此它将成为一个_单独段落_ 。
-
-本行也是一个单独段落，但是......这一行只用一个换行符隔开，所以它是_同一段落_ 中的单独一行。
+This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
 
 ---
 
-## 告诫 {#admonitions}
-
-注：请保持题头：note、tip、important、caution 和 warning 为原始英文状态，内容可根据您的需要撰写。
+## Admonitions {#admonitions}
 
 :::note
 

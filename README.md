@@ -1,4 +1,4 @@
-# HydraDX-docs
+# Basilisk-docs
 
 ## Installation
 

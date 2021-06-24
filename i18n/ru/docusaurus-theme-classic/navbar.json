@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "HydraDX Документация",
+    "message": "Basilisk Документация",
     "description": "The title in the navbar"
   },
   "item.label.Docs": {
     "message": "Документы",
     "description": "Navbar item with label Docs"
   },
-  "item.label.HydraDX Homepage": {
-    "message": "HydraDX Домашняя страница",
-    "description": "Navbar item with label HydraDX Homepage"
+  "item.label.Basilisk Homepage": {
+    "message": "Basilisk Домашняя страница",
+    "description": "Navbar item with label Basilisk Homepage"
   }
 }

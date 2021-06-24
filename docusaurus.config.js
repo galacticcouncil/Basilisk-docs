@@ -1,37 +1,31 @@
 module.exports = {
-  title: "HydraDX Docs",
+  title: "Basilisk Docs",
   tagline: "Let's learn this",
-  url: "https://docs.hydradx.io",
+  url: "https://docs.bsx.fi",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.png",
   organizationName: "galacticcouncil", // Usually your GitHub org/user name.
-  projectName: "HydraDX-docs", // Usually your repo name.
+  projectName: "Basilisk-docs", // Usually your repo name.
   themeConfig: {
     prism: {
       additionalLanguages: ['rust'],
     },
     navbar: {
-      title: "HydraDX Documentation",
+      title: "Basilisk Documentation",
       logo: {
-        alt: "HydraDX logo",
-        src: "img/logo.svg",
+        alt: "Basilisk logo",
+        src: "img/logo.png",
       },
       items: [
-        {
-          to: "/",
-          activeBasePath: "/",
-          label: "Docs",
-          position: "left",
-        },
         {
           type: 'localeDropdown',
           position: 'right',
         },
         {
-          href: "https://hydradx.io",
-          label: "HydraDX Homepage",
+          href: "https://bsx.fi",
+          label: "Basilisk Homepage",
           position: "right",
         },
       ],
@@ -44,11 +38,11 @@ module.exports = {
           items: [
             {
               label: "Discord",
-              href: "https://discord.gg/HDNPFFrcnW",
+              href: "https://discord.gg/S8YZj5aXR6",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/hydra_dx",
+              href: "https://twitter.com/bsx_finance",
             },
           ],
         },
@@ -63,7 +57,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
-          editUrl: "https://github.com/galacticcouncil/HydraDX-docs/edit/main/",
+          editUrl: "https://github.com/galacticcouncil/Basilisk-docs/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
