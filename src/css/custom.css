@@ -29,6 +29,10 @@ html[data-theme='dark'] {
 
 }
 
+html[data-theme='dark'] .navbar .navbar__logo {
+  content: url(/img/dark-logo.png);
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
