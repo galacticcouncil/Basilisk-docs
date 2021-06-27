@@ -5,7 +5,7 @@ title: Parachain Auctions
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Parachain auctions provide a mechanism to distribute the available parachain slots in Kusama to the most appropriate candidates. This article introduces parachain auctions by exploring two questions: Why do we have parachain auctions, and how do they work?
+Parachain auctions provide a mechanism to distribute the available [parachain](/parachains) slots in Kusama to the most appropriate candidates. This article introduces parachain auctions by exploring two questions: Why do we have parachain auctions, and how do they work?
 
 ## Why? {#why}
 
@@ -30,4 +30,4 @@ As illustrated by the image below, the candle auctions consist of a starting per
   <img alt="create-account" src={useBaseUrl('/parachain-auctions/auction-mechanism.jpg')}  />
 </div>
 
-The rationale behind this auction mechanism is to prevent auction sniping while promoting a more accurate price discovery. For crowdloan backers, it has an important implication: Support the Basilisk crowdloan by locking your KSM early rather than late. This way, you make sure that your contribution is counted towards the winning bid of Basilisk.
+The rationale behind this auction mechanism is to prevent auction sniping while promoting a more accurate price discovery. For crowdloan backers, it has an important implication: Support the [Basilisk crowdloan](/basilisk_crowdloan) by locking your KSM early rather than late. This way, you make sure that your contribution is counted towards the winning bid of Basilisk.
