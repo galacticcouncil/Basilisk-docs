@@ -10,6 +10,6 @@ module.exports = {
       "parachain_auctions",
       "crowdloans"
     ],
-    Contribute: ["contributing"]
+    "Help with Docs": ["contributing"]
   }
 };
