@@ -5,29 +5,29 @@ title: Parachain Auctions
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Parachain auctions provide a mechanism to distribute the available [parachain](/parachains) slots in Kusama to the most appropriate candidates. This article introduces parachain auctions by exploring two questions: Why do we have parachain auctions, and how do they work?
+ Las parachain auctions  proporcionan un mecanismo para distribuir los slot para [parachain](/parachains) disponibles en Kusama a los candidatos más apropiados. Este artículo presenta a las parachain auctions explorando dos preguntas: ¿Por qué tenemos parachain auctions, y cómo funcionan?
 
-## Why? {#why}
+## ¿Por qué? {#why}
 
-Kusama and Polkadot are only able to support a limited number of parachains which are connected to their relay chain at the same time. The long-term goal for Polkadot is 100 parachains, while Kusama is kicking off the party with 5 parachains in the first round and another 5 to follow shortly thereafter.
+Kusama y Polkadot solo pueden admitir un número limitado de parachains que están conectadas a su relay chain al mismo tiempo. El objetivo a largo plazo de Polkadot son 100 parachains, mientras que Kusama inicia la fiesta con 5 parachains en la primera ronda y otros 5 para seguir poco después.
 
-Against this background, parachain auctions were introduced as a market-efficient instrument for dealing with the scarcity by distributing the available slots to the most appropriate parachain candidates.
+En este contexto, las parachain auctions se introdujeron como un instrumento eficiente en el mercado para hacer frente a la escasez mediante la distribución de los slots disponibles a los candidatos de parachain más apropiados.
 
 
-## How do Parachain Auctions work? {#how}
+## ¿Cómo funcionan las Parachain Auctions? {#how}
 
-Parachain slots are offered on an one-by-one basis in separate auctions which have the duration of 1 week. During this timeframe, candidate projects can bid on a parachain slot of their desired duration. The available slots are divided into lease periods of 6 weeks. The maximum duration of a parachain slot is 48 weeks (8 * 6 weeks). Below, you can see the auctions schedule for the first 5 Kusama slots.
+Los slots para parachain se ofrecen una a una en subastas separadas que tienen una duración de 1 semana. Durante este período de tiempo, los proyectos candidatos pueden ofertar por un slot parachain, con la duración deseada. Los slots disponibles se dividen en períodos de arrendamiento de 6 semanas. La duración máxima de un slot parachain es 48 semanas (8 * 6 semanas). A continuación, puede ver el calendario de subastas de los primeros 5 slots para parachain en Kusama.
 
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <img alt="create-account" src={useBaseUrl('/parachain-auctions/ksm-schedule.jpg')}  />
 </div>
 
-The winner of the auction is the parachain candidate that has offered the **highest amount of KSM to be locked up** for the duration of the parachain slot at the closing moment of the auction. However, this might not be very straight-forward because Kusama uses the so-called **candle auction mechanism** in which the closing moment of the auction is **initially unknown**.
+El ganador de la subasta es la parachain candidata que ha ofrecido el **mayor monto de KSM para ser bloqueado** durante la duración del slot parachain, al momento del cierre de la subasta.Sin embargo, esto podría no ser muy sencillo porque Kusama utiliza el llamado **candle auction mechanism** en el que **inicialmente se desconoce el momento de cierre de la subasta**.
 
-As illustrated by the image below, the candle auctions consist of a starting period (1 day 21 hours) and an ending period (5 days). Candidates are able to bring out their bids at any moment, however the official auction closing moment is determined at the very end by picking a random moment somewhere within the ending period of 5 days. The candidate with the highest bid at that specific moment is the winner of the parachain slot.
+Como se ilustra en la imagen a continuación, las candle auctions consisten en un período de inicio (1 día 21 horas) y un período de finalización (5 días). Los candidatos pueden presentar sus ofertas en cualquier momento, sin embargo, el momento oficial de cierre de la subasta se determina al final eligiendo un **momento aleatorio** en algún lugar dentro del período final de 5 días. El candidato con la oferta más alta en ese momento específico es el ganador del slot parachain.
 
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <img alt="create-account" src={useBaseUrl('/parachain-auctions/auction-mechanism.jpg')}  />
 </div>
 
-The rationale behind this auction mechanism is to prevent auction sniping while promoting a more accurate price discovery. For crowdloan backers, it has an important implication: Support the [Basilisk crowdloan](/basilisk_crowdloan) by locking your KSM early rather than late. This way, you make sure that your contribution is counted towards the winning bid of Basilisk.
+La razón fundamental detrás de este mecanismo de subasta es evitar los sniping auction mientras se promueve un descubrimiento de precios más preciso. Para los patrocinadores del crowdloan, hay una implicación importante: Apoyar el [Basilisk crowdloan](/basilisk_crowdloan) bloqueando su KSM antes que tarde. De esta manera, se asegura de que su contribución se cuente para la oferta ganadora de Basilisk.
