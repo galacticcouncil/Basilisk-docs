@@ -4,8 +4,8 @@ module.exports = {
       "intro",
       "basilisk_crowdloan"
     ],
-    "How To": ["crowdloan_guide"],
-    "Knowledge Base": [
+    "How-to": ["crowdloan_guide"],
+    Learn: [
       "parachains",
       "parachain_auctions",
       "crowdloans"

@@ -3,18 +3,18 @@ id: crowdloans
 title: Crowdloans
 ---
 
-Crowdloans help [parachain](/parachains) candidates raise sufficient funds for winning a slot in the [parachain auctions](/parachain_auctions). This article provides a general understanding of how crowdloans work. For specific information on our running crowdloan campaign, please head to the [Basilisk crowdloan page](/basilisk_crowdloan).
+Los crowdloans ayudan a los candidatos de [parachain](/parachains) a recaudar fondos suficientes para ganar un slot en las [parachain auctions](/parachain_auctions). Este artículo proporciona una comprensión general de cómo funcionan los crowdloans.  Para obtener información específica sobre nuestro crowdloan,  diríjase a la [pagina Basilisk crowdloan](/basilisk_crowdloan).
 
 
-## How does a Crowdloan Work? {#how}
+## ¿Cómo funciona un Crowdloan? {#how}
 
-Parachain candidates can initiate a crowdloan campaign using the dedicated Kusama crowdloan module. When doing so, they set its goal (amount of KSM to be raised) as well its end date (by when). The crowdloan campaign is usually initiated before the start of the parachain auction, thereby giving the candidate sufficient time to raise funding.
+Los candidatos a Parachain pueden iniciar una campaña crowdloan usando el modulo dedicado de Kusama. Al hacerlo, establecen su objetivo (cantidad de KSM a recaudar) así como su fecha de finalización (para cuándo). La campaña crowdloan generalmente se inicia antes del inicio del parachain auction, lo que le da al candidato el tiempo suficiente para recaudar fondos.
 
-Crowdloan backers support the parachain candidate of their choice by locking a certain amount of KSM which will be used to place a bid in the parachain auction. The KSM remains locked until one of the following unlocking events has been triggered:
+Los patrocinadores de Crowdloan apoyan al candidato de parachain de su elección bloqueando una cierta cantidad de KSM que se utilizará para realizar una oferta en la subasta de parachain. El KSM permanece bloqueado hasta que se activa uno de los siguientes eventos de desbloqueo:
 
-* Candidate wins a parachain slot: After the duration of the parachain slot has expired (48 weeks for Basilisk)
-* Candidate does not win a parachain slot: Once the crowdloan goal has been reached or the crowdloan campaign has expired
+* El candidato gana un slot parachain: Después de que la duración de la ranura de parachain haya expirado (48 semanas para Basilisk)
+* El candidato no gana un slot parachain: Una vez que se ha alcanzado el objetivo impuesto o ha expirado la campaña crowdloan.
 
-While crowdloan backers do receive back their funds in full once the unlocking event has been triggered, participating at a crowdloan still bears the so-called **opportunity costs**. These reflect the benefits that were missed by locking KSM tokens for a given period as opposed to investing them in another way. For example, instead of locking KSM tokens for 1 year, users could decide to stake their KSM which would bring them 10-15% rewards. In this example, the 10-15% rewards represent the opportunity costs of participating at a crowdloan.
+Si bien los patrocinadores del crowdloanreciben la devolución total de sus fondos una vez que se ha activado el evento de desbloqueo, la participación en un crowdloan, aún conlleva los llamados **costos de oportunidad**. TEstos reflejan los beneficios que se perdieron al bloquear los tokens KSM durante un período determinado en lugar de invertirlos de otra manera. Por ejemplo, en lugar de bloquear los tokens KSM durante 1 año, los usuarios podrían decidir hacer stake de sus KSM, lo que les brindaría recompensas del 10-15%. En este ejemplo, las recompensas del 10 al 15% representan los costos de oportunidad de participar en un préstamo colectivo.
 
-At Basilisk, we have made our best to make sure that our backers do not have to think too much about opportunity costs: Check out the generous rewards scheme of the [Basilisk crowdloan](/basilisk_crowdloan)!
+En Basilisk, hemos hecho todo lo posible para asegurarnos de que nuestros patrocinadores no tengan que pensar demasiado en los costos de oportunidad: ¡Eche un vistazo al generoso esquema de recompensas del [Basilisk crowdloan](/basilisk_crowdloan)!
