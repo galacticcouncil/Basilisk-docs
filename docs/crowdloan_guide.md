@@ -3,6 +3,8 @@ id: crowdloan_guide
 title: Participate in Crowdloan
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 This article guides you through the process of participating in the [Basilisk crowdloan](/basilisk_crowdloan) using the dedicated crowdloan page: https://loan.bsx.fi
 
 ## Requirements {#requirements}
@@ -19,15 +21,19 @@ It is not possible to participate in the crowdloan using a hardware wallet. Curr
 
 To access the Basilisk Crowdloan UI, navigate to https://loan.bsx.fi.
 
-*Screenshot to come*
+<div style={{textAlign: 'center', marginBottom: '2rem'}}>
+  <img alt="create-account" src={useBaseUrl('/img/crowdloan-guide/chart.png')}  />
+</div>
 
 The chart in the middle provides information about the ongoing auction for the parachain slot. The green line shows the amount of KSM tokens which have been raised by Basilisk, while the yellow line corresponds to the KSM raised by the main competitor of Basilisk. The horizontal red line demarks the beginning of the closing period of the target parachain auction. All this information is relevant for determining the amount of [BSX awards and HDX bonus](/basilisk_crowdloan) which you will receive for your contribution. 
 
-## 01 Connect to Polkadot.js Wallet {#01-connect-polkadot}
+## 01 Select your address {#01-select-address}
 
-To begin, click on *Connect your wallet* and select the address holding your KSM tokens.
+To begin, click on *change your account* and select the address holding your KSM tokens.
 
-*Screenshot to come*
+<div style={{textAlign: 'center', marginBottom: '2rem'}}>
+  <img alt="create-account" src={useBaseUrl('/img/crowdloan-guide/select-account.png')}  />
+</div>
 
 ## 02 Enter your KSM Contribution {#02-enter-ksm-contribution}
 
@@ -44,3 +50,7 @@ If you want to know more about the mechanics behind the rewards calculation, ple
 ## 03 Submit your Contribution {#03-submit}
 
 To finalize the process, click on *Contribute* and sign the transaction using the account holding your KSM tokens.
+
+<div style={{textAlign: 'center', marginBottom: '2rem'}}>
+  <img alt="create-account" src={useBaseUrl('/img/crowdloan-guide/sign-submit.png')}  />
+</div>
