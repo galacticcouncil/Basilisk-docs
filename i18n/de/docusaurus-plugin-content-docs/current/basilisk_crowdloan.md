@@ -5,7 +5,7 @@ title: Basilisk Crowdloan
 
 The Basilisk crowdloan for the Kusama parachain auctions is now live! You can support Basilisk by participating in our crowdloan campaign and pledging some amount of KSM tokens which will be locked up for the duration of the parachain slot. In return, you will be granted **generous BSX rewards plus an HDX bonus** to cover your opportunity costs. Once the parachain slot has expired, you will receive your KSM tokens back in full. The same applies to the unlikely scenario that Basilisk does not manage to win a parachain slot within the crowdloan campaign deadline stated hereunder.
 
-You can participate directly by visiting our [crowdloan page](#link-to-ui). You can also check out our [step-by-step crowdloan guide](/crowdloan_guide) which will guide you through the process. Alternatively, you can [participate in the Basilisk crowdloan via Kraken](#link-to-kraken).
+You can participate directly by visiting our [crowdloan page](https://loan.bsx.fi). You can also check out our [step-by-step crowdloan guide](/crowdloan_guide) which will guide you through the process. Alternatively, you can [participate in the Basilisk crowdloan via Kraken](https://www.kraken.com/learn/parachain-auctions).
 
 In this post you will find the general details of the Basilisk crowdloan as well as more detailed information on how the rewards mechanism works. If you are a newcomer who is interested in learning more about the project, you can check out some of the materian under `Learn` which will help you understand [parachains](/parachains), [parachain auctions](/parachain_auctions) and [crowdloans](/crowdloans).
 
@@ -60,3 +60,5 @@ BSX_price_in_KSM = total_opportunity_costs_in_KSM / total_BSX_rewards
 ```
 
 To give an example of how this would look in practice, we could work with the assumption that the Basilisk crowdloan would reach its goal of 200.000 KSM. This would entail total opportunity costs of 27.500 KSM. Applying the formula above, 1 BSX would amount to 0,0000018333 KSM or roughly $ 0,000384993 (at a KSM price of $ 210).
+
+The example above is given for illustrative purposes only. It is not possible to predict the future price of BSX with any accuracy until the crowdloan campaign has been completed successfully.
