@@ -1,32 +1,32 @@
 ---
 id: parachains
-title: Parachains
+title: 平行链
 ---
 
-One of the most distinctive features of Polkadot and Kusama is the support of parachains. Parachains are individual blockchains built on Substrate which are designed to handle specific use-cases and which are connected to the so-called relay chain (i.e. Kusama or Polkadot).
+Polkadot 和 Kusama 最显着的一个特点是支持平行链。平行链是建立在 Substrate 上的独立区块链，旨在处理特定用例并连接到所谓的中继链（即 Kusama 或 Polkadot）。
 
-For a better understanding of parachains and their place within the network, this article examines some of their defining characteristics: [specialization](#specialization), [shared security](#shared-security), [scalability](#scalability) and [interoperability](#interoperability).
-
-
-## Specialization {#specialization}
-
-The world as we know it is built upon the concept of specialization: The process of becoming experts in a particular area or skill. Parachains bring specialization into the world of blockchain. The design of Kusama empowers parachain developers to focus on the features that make their chain unique while taking advantage of shared security and interoperability.
-
-Basilisk's specialization is liquidity bootstrapping for new cryptoassets: With its modular design, Basilisk empowers long tail cryptoassets to bootstrap liquidity using an AMM model of their choice. From traditional XYK-pools, through weighted Liquidity Bootstrapping Pools and curves, all the way to auctions and an NFT marketplace: Basilisk has got you covered.
+为了更好地理解平行链及其在网络中的位置，本文研究了它们的一些定义特征： **[专业化](#specialization)** ，**[共享安全性](#shared-security)** ，**[可扩展性](#scalability)** 和 **[互操作性](#interoperability)** 。
 
 
-## Shared Security {#shared-security}
+## 专业化 {#specialization}
 
-Security is one of the challenges that has been holding back the adoption of specialized layer-1 blockchain solutions. Obtaining a large and decentralized set of validators is key to the security of the network, however this goal might prove too ambitious to attain for some niche projects.
+我们所知的世界建立在专业化的概念之上：成为某一特定领域或技能专家的过程。平行链将专业化带入区块链世界。Kusama 的设计，让平行链开发人员能够专注于链的独特功能开发，同时利用共享的安全性和互操作性。
 
-All Kusama parachains enjoy industrial-grade security which comes out of the box. They are connected to the relay chain (Kusama) and secured by its set of validators. Parachains have their own sets of collators that are responsible for maintaining a full-node of the parachain and for producing new block candidates. The produced block candidates are passed to the validators of the relay chain which verify the blocks and include them in the shared state of Kusama. As a result, parachains share the same high level of security as Kusama itself.
-
-
-## Scalability {#scalability}
-
-Despite being connected to the relay chain, parachains remain independent layer-1 blockchains that produce their own blocks. This design feature has great performance implications because it allows transactions to be processed by different chains in parallel. The capability of parallel processing underpins the infamous scalability and high throughput of the Kusama network.
+Basilisk 的专长是新生加密资产的流动性引导：通过其模块化设计，Basilisk 授权长尾加密资产使用自己选择的 AMM 模型来引导流动性。从传统的 XYK 池，到加权流动性引导池和曲线，再到拍卖和 NFT 市场，Basilisk 已覆盖了您的各方面需求。
 
 
-## Interoperability {#interoperability}
+## 共享安全 {#shared-security}
 
-All parachains that are connected to the Kusama relay chain can communicate with each other using a feature called Cross-Chain Message Passing (XCMP). XCMP empowers individual parachains not only to exchange tokens but also richer information such as smart contracts, thus paving the way for the DeFi expansion. Kusama's interoperability is a stepping stone towards the multi-chain future where cross-chain transfers become part of our daily lives.
+安全性是阻碍采用专门的第一层区块链解决方案的挑战之一。获得大量分散的验证人是网络安全的关键，但是对于某些小众项目来说，这个目标可能过于雄心勃勃，无法实现。
+
+所有 Kusama 平行链都享有开箱即用的工业级安全防护。它们连接到中继链 (Kusama) 并由其验证人集保护。平行链有自己的一组整理者，负责维护平行链的全节点并产生新的候选区块。生成的候选区块被传递给中继链的验证人，验证人验证区块并将它们包含在 Kusama 的共享状态中。因此，平行链与 Kusama 一样，拥有相同的高度安全性。
+
+
+## 可扩展性 {#scalability}
+
+尽管连接到中继链，平行链仍然是独立的第一层区块链，可以生成自己的区块。这种设计特性具有很大的性能影响，因为它允许不同的链并行处理交易。并行处理能力支撑了 Kusama 网络广为人知的可扩展性和高吞吐量。
+
+
+## 互操作性 {#interoperability}
+
+所有连接到 Kusama 中继链的平行链都可以使用称为跨链消息传递（XCMP）的功能相互通信。XCMP 让各条平行链不仅能够交换令牌，还可以交换更丰富的信息，如智能合约，从而为 DeFi 扩展铺平了道路。Kusama 的互操作性是迈向多链未来的基石，跨链转帐将成为我们日常生活的一部分。
