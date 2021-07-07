@@ -1,20 +1,19 @@
 ---
 id: crowdloans
-title: Crowdloans
+title: 众贷
 ---
 
-Crowdloans help [parachain](/parachains) candidates raise sufficient funds for winning a slot in the [parachain auctions](/parachain_auctions). This article provides a general understanding of how crowdloans work. For specific information on our running crowdloan campaign, please head to the [Basilisk crowdloan page](/basilisk_crowdloan).
+众贷将帮助 **[平行链](/parachains)** 候选人筹集到足够的资金，在 **[平行链拍卖](/parachain_auctions)** 中赢得一个位置。这篇文章将简单介绍众贷是如何运行的。如想进一步了解我们众贷的详细信息，请阅读 **[Basilisk 众贷页面](/basilisk_crowdloan)**。
 
+## 众贷是如何运行的？ {#how}
 
-## How does a Crowdloan Work? {#how}
+参与平行链拍卖的项目将以竞选的方式在 Kusama 众贷模块进行。项目方将会列出此次众贷的筹款目标以及预计结束日。众贷的竞选活动一般在平行链正式拍卖前就开始了，这样可以帮助参加者予足够的时间来筹集资金。
 
-Parachain candidates can initiate a crowdloan campaign using the dedicated Kusama crowdloan module. When doing so, they set its goal (amount of KSM to be raised) as well its end date (by when). The crowdloan campaign is usually initiated before the start of the parachain auction, thereby giving the candidate sufficient time to raise funding.
+众贷参与者以锁定定额的KSM的方式参与竞拍环节以帮助项目赢得平行链卡槽。锁定的 KSM 直到以下场景才会解除绑定：
 
-Crowdloan backers support the parachain candidate of their choice by locking a certain amount of KSM which will be used to place a bid in the parachain auction. The KSM remains locked until one of the following unlocking events has been triggered:
+* 项目方赢得竞拍并获得卡槽：在平行链的卡槽过期之后（Basilisk 将是 48 周）
+* 项目方未能赢得竞拍：筹款目标达到，或预期结束日到期
 
-* Candidate wins a parachain slot: After the duration of the parachain slot has expired (48 weeks for Basilisk)
-* Candidate does not win a parachain slot: Once the crowdloan goal has been reached or the crowdloan campaign has expired
+尽管众贷参与者可以在满足条件后收回全部资金，参与者在此期间损失了所谓的 **机会成本**。机会成本意味着锁定的 KSM 在此锁定时间段损失的收益（如质押，或以其他方式再次投资）。举个例子，相比于将 KSM 锁定在众贷项目中，用户可以在 KSM 网络上进行质押以获得固定 10-15% 的收益。在这个例子中，10-15% 即是参与这次众贷的机会成本。
 
-While crowdloan backers do receive back their funds in full once the unlocking event has been triggered, participating at a crowdloan still bears the so-called **opportunity costs**. These reflect the benefits that were missed by locking KSM tokens for a given period as opposed to investing them in another way. For example, instead of locking KSM tokens for 1 year, users could decide to stake their KSM which would bring them 10-15% rewards. In this example, the 10-15% rewards represent the opportunity costs of participating at a crowdloan.
-
-At Basilisk, we have made our best to make sure that our backers do not have to think too much about opportunity costs: Check out the generous rewards scheme of the [Basilisk crowdloan](/basilisk_crowdloan)!
+在 Basilisk，我们已经尽全力确保我们的众贷参与者不会过于担心机会成本：查看 **[Basilisk 众贷](/basilisk_crowdloan)** 的慷慨奖励计划！

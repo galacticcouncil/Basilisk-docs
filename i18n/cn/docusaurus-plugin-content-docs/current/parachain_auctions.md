@@ -1,33 +1,32 @@
 ---
 id: parachain_auctions
-title: Parachain Auctions
+title: 平行链拍卖
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Parachain auctions provide a mechanism to distribute the available [parachain](/parachains) slots in Kusama to the most appropriate candidates. This article introduces parachain auctions by exploring two questions: Why do we have parachain auctions, and how do they work?
+平行链拍卖提供了一种机制，可以将Kusama 中可用的 **[平行链](/parachains)** 插槽分配给最合适的候选人。本文通过探讨两个问题来介绍平行链拍卖：为什么有平行链拍卖？它们是如何运作的？
 
-## Why? {#why}
+## 为什么？ {#why}
 
-Kusama and Polkadot are only able to support a limited number of parachains which are connected to their relay chain at the same time. The long-term goal for Polkadot is 100 parachains, while Kusama is kicking off the party with 5 parachains in the first round and another 5 to follow shortly thereafter.
+Kusama 和 Polkadot 只能支持有限数量的平行链同时连接到它们的中继链。Polkadot 的长期目标是 100 条平行链，而 Kusama 初期支持 5 条平行链，此后不久还会有 5 条平行链。
 
-Against this background, parachain auctions were introduced as a market-efficient instrument for dealing with the scarcity by distributing the available slots to the most appropriate parachain candidates.
+在此背景下，平行链拍卖作为市场有效工具被引入。它通过将可用插槽分配给最合适的平行链候选者来处理稀缺性。
 
+## 平行链拍卖如何运作？ {#how}
 
-## How do Parachain Auctions work? {#how}
-
-Parachain slots are offered on an one-by-one basis in separate auctions which have the duration of 1 week. During this timeframe, candidate projects can bid on a parachain slot of their desired duration. The available slots are divided into lease periods of 6 weeks. The maximum duration of a parachain slot is 48 weeks (8 * 6 weeks). Below, you can see the auctions schedule for the first 5 Kusama slots.
+平行链插槽在各自为期 1 周的单独拍卖中逐一提供。在此时间段内，候选项目可以竞标其所需持续时间的平行链插槽。可用插槽以6周为一个租赁期被划分。平行链插槽的最长租赁期时间为 48 周（8 * 6 周）。您可以在下方查看前 5 个 Kusama 插槽的拍卖时间表。
 
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <img alt="create-account" src={useBaseUrl('/parachain-auctions/ksm-schedule.jpg')}  />
 </div>
 
-The winner of the auction is the parachain candidate that has offered the **highest amount of KSM to be locked up** for the duration of the parachain slot at the closing moment of the auction. However, this might not be very straight-forward because Kusama uses the so-called **candle auction mechanism** in which the closing moment of the auction is **initially unknown**.
+拍卖的获胜者，是在平行链插槽拍卖结束时 **锁定最高数量的 KSM** 的平行链候选者。然而，这可能不是很直接，因为 Kusama 使用所谓的 **蜡烛拍卖机制**，其中拍卖的结束时刻在 **最初是未知的**。
 
-As illustrated by the image below, the candle auctions consist of a starting period (1 day 21 hours) and an ending period (5 days). Candidates are able to bring out their bids at any moment, however the official auction closing moment is determined at the very end by picking a random moment somewhere within the ending period of 5 days. The candidate with the highest bid at that specific moment is the winner of the parachain slot.
+如下图所示，蜡烛拍卖由开始期（1 天 21 小时）和结束期（5 天）组成。候选人可以在任何时候出价，但正式拍卖结束时间是在最后确定的，在 5 天的结束期限内随机选择一个时间。在该特定时刻出价最高的候选人是平行链插槽的获胜者。
 
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <img alt="create-account" src={useBaseUrl('/parachain-auctions/auction-mechanism.jpg')}  />
 </div>
 
-The rationale behind this auction mechanism is to prevent auction sniping while promoting a more accurate price discovery. For crowdloan backers, it has an important implication: Support the [Basilisk crowdloan](/basilisk_crowdloan) by locking your KSM early rather than late. This way, you make sure that your contribution is counted towards the winning bid of Basilisk.
+这种拍卖机制背后的基本原理是防止拍卖狙击，同时促进更准确的价格发现。对于众贷支持者来说，它有一个重要的含义：尽早锁定您的 KSM 来支持 **[Basilisk 众贷](/basilisk_crowdloan)** 。这样，可确保您的贡献被计入 Basilisk 的众贷活动。
