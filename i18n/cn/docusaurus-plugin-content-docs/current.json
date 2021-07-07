@@ -3,9 +3,9 @@
     "message": "下一页",
     "description": "The label for version current"
   },
-  "sidebar.sidebar.category.Intro": {
-    "message": "简介",
-    "description": "The label for category Intro in sidebar sidebar"
+  "sidebar.sidebar.category.General": {
+    "message": "概述",
+    "description": "The label for category General in sidebar"
   },
   "sidebar.sidebar.category.How-to": {
     "message": "指南",
@@ -30,5 +30,9 @@
   "sidebar.sidebar.category.Contribute": {
     "message": "投稿",
     "description": "The label for category Contribute in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Help with Docs": {
+    "message": "帮助文档",
+    "description": "The label for category Help with Docs in sidebar"
   }
 }
