@@ -3,63 +3,62 @@ id: basilisk_crowdloan
 title: Basilisk Crowdloan
 ---
 
-The Basilisk crowdloan for the Kusama parachain auctions is now live! You can support Basilisk by participating in our crowdloan campaign and pledging some amount of KSM tokens which will be locked up for the duration of the parachain slot. In return, you will be granted **generous BSX rewards plus an HDX bonus** to cover your opportunity costs. Once the parachain slot has expired, you will receive your KSM tokens back in full. The same applies to the unlikely scenario that Basilisk does not manage to win a parachain slot within the crowdloan campaign deadline stated hereunder.
+El Crowdloan de Basilisk para la subastas de los slot en Kusama, ya esta disponible!  Puede apoyar a Basilisk participando en nuestro crowdloan comprometiendo una cierta cantidad de tokens KSM que estarán bloqueados durante la duración del slot parachain.A cambio, se le otorgarán **generosas recompensas BSX más un bono en HDX** para cubrir sus costos de oportunidad. Una vez que el slot haya expirado, recibirá sus tokens KSM en su totalidad. Lo mismo se aplica al improbable escenario de que Basilisk no logre ganar un slot parachain  dentro del plazo del crowdloan establecido a continuación.
 
-You can participate directly by visiting our [crowdloan page](https://loan.bsx.fi). You can also check out our [step-by-step crowdloan guide](/crowdloan_guide) which will guide you through the process. Alternatively, you can [participate in the Basilisk crowdloan via Kraken](https://www.kraken.com/learn/parachain-auctions).
+Puede participar directamente visitando nuestra [ pagina para crowdloan](https://loan.bsx.fi). También puede consultar nuestra [ guia crowdloan](/crowdloan_guide) que lo guiará a través del proceso.  Alternativamente, puede [participar en el Basilisk crowdloan via Kraken](https://www.kraken.com/learn/parachain-auctions).
 
-In this post you will find the general details of the Basilisk crowdloan as well as more detailed information on how the rewards mechanism works. If you are a newcomer who is interested in learning more about the project, you can check out some of the materian under `Learn` which will help you understand [parachains](/parachains), [parachain auctions](/parachain_auctions) and [crowdloans](/crowdloans).
+En esta publicación, encontrará los detalles generales del Basilisk crowdloan , así como información más detallada sobre cómo funciona el mecanismo de recompensas. Si es un recién llegado que está interesado en aprender más sobre el proyecto, puede consultar algunos de los materiales `Aprende` que le ayudarán a comprender las[parachains](/parachains), [parachain auctions](/parachain_auctions) y [crowdloans](/crowdloans).
 
-## Crowdloan Details {#crowdloan-details}
+## Detalles de Crowdloan {#crowdloan-details}
 
-* Parachain duration: **48 weeks**
-* Target parachain slot: **#4** (auctioned in the period **06th-13th of July 2021**)
+* Duración de la Parachain: **48 semanas**
+* Target parachain slot: **#4** (subastado en el período del **06-13 de Julio 2021**)
 * Crowdloan cap: **200.000 KSM**
-* Total BSX rewards: **15.000.000.000 BSX** (15% of total supply)
-* Maximum HDX rewards: **56.873.469 HDX**
-* Crowdloan campaign deadline: **23rd of July 2021**
+* Recompensas Totales de BSX : **15.000.000.000 BSX** (15% of total supply)
+* Recompensas maxima de HDX : **56.873.469 HDX**
+* Deadline o cierre del Crowdloan : **23 de Julio 2021**
 * Vesting period: BSX rewards and HDX bonuses are distributed linearly. The distribution will start once the Basilisk LBP event has been concluded (~2 weeks after the parachain slot is secured) and will continue until 1 week before the parachain slot expires.
 
-## Rewards Mechanism {#rewards-mechanism}
+## Mecanismo de recompensas {#rewards-mechanism}
 
-All community supporters are rewarded for participating in the crowdloan after Basilisk has secured a parachain slot. The available rewards consist of BSX and HDX tokens which are distributed at a different rate depending on the state of the crowdloan at the time of the contribution. The rewards mechanism has been designed with the best interest of the Basilisk stakeholders in mind. The aim is to not overpay for the parachain slot, thereby minimizing the opportunity costs for backers and maximizing the potential future upside. Below, you will find the BSX and HDX rewards mechanisms explained.
+Todos los partidarios de la comunidad son recompensados por participar en el Crowdloan después de que Basilisk haya asegurado un slot parachain. Las recompensas disponibles consisten en tokens BSX y HDX que se distribuyen a una tasa diferente según el estado del Crowdloan o en el momento de la contribución.
+El mecanismo de recompensas se ha diseñado teniendo en cuenta el mejor interés de las partes interesadas de Basilisk. El objetivo es no pagar de más por el slot parachain, minimizando así los costos de oportunidad para los patrocinadores y maximizando el potencial alcista futuro. A continuación, encontrará los mecanismos de recompensas BSX y HDX explicados.
 
 
 ### BSX Rewards {#bsx-rewards}
-The amount of BSX rewards which will be received by each participant can only be determined at the end of the crowdloan campaign after Basilisk has secured a parachain slot. The calculation of the rewards consists of two steps.
+La cantidad de recompensas BSX que recibirá cada participante solo se puede determinar al final del Crowdloan después de que Basilisk haya asegurado un slot parachain. El cálculo de las recompensas consta de dos pasos.
 
-In the first place, all KSM contributions are weighed using a rewards multiplier. The multiplier has a float **value between 1 and 0** depending on the point in time when the contribution was made. A rewards multiplier of **1,0** applies to all KSM which was **pledged before the target auction #4 has started closing (July 8th at roughly 09.00 GMT)**. After that, the multiplier begins to linearly decrease until it has reached **0 at the closing time of the auction (July 13th at 09.00 GMT)**. If the total pledged KSM is not sufficient for winning a slot in auction #4, then the following **auction #5 will become the new target auction**. Accordingly, the multiplier for all KSM which was pledged during the previous auction #4 will be reset to 1.
+En primer lugar, todas las contribuciones de KSM se pesan utilizando un multiplicador de recompensas. El multiplicador tiene un **valor flotante entre 1 y 0** dependiendo del momento en el que se realizó la contribución. Se aplica un multiplicador de recompensas de **1,0** a todos los KSM que se comprometieron **antes de que la subasta objetivo n. ° 4 comenzara a cerrarse (8 de julio aproximadamente a las 09:00 GMT)**. Después de eso, el multiplicador comienza a disminuir linealmente hasta llegar a **0 a la hora de cierre de la subasta (13 de julio a las 09.00 GMT)**. Si el KSM total bloqueado no es suficiente para ganar un slot en la subasta n.°4, **la subasta n.°5 se convertirá en el nuevo target**. En consecuencia, el multiplicador para todos los KSM que se bloqueo durante la subasta #4 se restablecerá a 1.
 
-After the weighted KSM contributions have been established using the procedure described above, the exact amount of individual rewards is calculated. The amount of rewards is determined in accordance with the proportion of the weighted individual contribution in relation to all weighted KSM contributions, as shown in the following formula:
+Una vez que se han establecido las contribuciones ponderadas de KSM mediante el procedimiento descrito anteriormente, se calcula la cantidad exacta de recompensas individuales. El monto de las recompensas se determina de acuerdo con la proporción de la contribución individual ponderada en relación con todas las contribuciones ponderadas de KSM, como se muestra en la siguiente fórmula:
 
 ```
 rewards = (weighted_indivudial_contribution / total_weighted_contributions) * crowdloan_cap
 ```
 
-While we cannot determine the exact amount of rewards until the parachain slot has actually been won, it is possible to calculate the minimum amount of BSX rewards for any given contribution. This can be done under the assumptions that the crowdloan would manage to reach its maximum cap of 200.000 KSM, and that all contributions would have the highest rewards multiplier of 1,0. This, of course, is a highly unlikely scenario but it allows us to indicate in the Crowdloan UI the minimum amount of BSX tokens that contributors can expect in return for their KSM.
+Si bien no podemos determinar la cantidad exacta de recompensas hasta que realmente se haya ganado el slot parachain, es posible calcular la cantidad mínima de recompensas BSX para cualquier contribución determinada. Esto se puede hacer bajo el supuesto de que el préstamo colectivo lograría alcanzar su límite máximo de 200.000 KSM y que todas las contribuciones tendrían el multiplicador de recompensas más alto de 1,0. Este, por supuesto, es un escenario muy poco probable, pero nos permite indicar en la interfaz de usuario de Crowdloan la cantidad mínima de tokens BSX que los contribuyentes pueden esperar a cambio de su KSM.
 
 ### HDX Bonus {#hdx-bonus}
 
-To further incentivize timely support, all crowdloan backers will receive additional HDX bonus covering **5-30% of the opportunity costs** of their KSM contribution. For a lockup period of ~11 months, these opportunity costs are currently estimated at **13,75%** (based on a 15% APY for KSM staking).
+Para incentivar aún más el soporte oportuno, todos los patrocinadores de préstamos colectivos recibirán un bono HDX adicional que **cubrirá entre el 5 y el 30% de los costos de oportunidad** de su contribución en KSM. Para un período de bloqueo de ~ 11 meses, estos costos de oportunidad se estiman actualmente en **13,75%** (basado en un APY del 15% para la participación de KSM).
 
-Also here, the exact percentage of the opportunity costs which will be covered is determined by the state of the crowdloan at the moment when the KSM contribution is made. The HDX bonus multiplier will be at its **maximum of 0,3** while Basilisk is lagging behind its main competitor for a parachain slot. As Basilisk takes the lead over the main competitor, the bonus multiplier will start to linearly decrease towards a **minimum of 0,05**. This minimum is reached once Basilisk is leading the race by 10% or more.
+También aquí, el porcentaje exacto de los costos de oportunidad que se cubrirán está determinado por el estado del Crowdloan en el momento en que se realiza la contribución de KSM. El multiplicador de bonificación HDX estará en su **máximo de 0,3**, mientras que Basilisk se está quedando atrás de su principal competidor por el slot. A medida que Basilisk toma la delantera sobre el competidor principal, el multiplicador de bonificación comenzará a disminuir linealmente hacia un **mínimo de 0,05**. Este mínimo se alcanza una vez que Basilisk lidera la carrera en un 10% o más.
 
-Taking above into account, the amount of the bonus (in KSM) for an individual contribution is calculated using the following formula:
+Teniendo en cuenta lo anterior, el monto de la bonificación (en KSM) para una contribución individual se calcula utilizando la siguiente fórmula:
 
 ```
 bonus_in_KSM = contributed_KSM * opportunity_costs * bonus_multiplier
 ```
 
-At the end, the bonus is converted to HDX using the last known historical price of $ 0.08059 for 1 HDX. 
+Al final, el bono se convierte a HDX utilizando el último precio histórico conocido de $ 0.08059 por 1 HDX
 
+## Valoración BSX {#bsx-valuation}
 
-## BSX Valuation {#bsx-valuation}
-
-Finally, we would like to say a few words about the valuation of the native BSX token. An accepted way to determine the valuation of a parachain is to refer to the opportunity costs incurred by locking the pledged KSM for the duration of the parachain slot. As noted above, these opportunity costs are estimated at 13,75%. The price of the BSX token can then be calculated using the following formula:
-
+Finalmente, nos gustaría decir algunas palabras sobre la valoración del token nativo BSX . Una forma aceptada de determinar la valoración total de una parachain es referirse a los costos de oportunidad incurridos al bloquear el KSM comprometido durante la duración de dicho slot. Como se señaló anteriormente, estos costos de oportunidad se estiman en 13,75% . El precio del token BSX se puede calcular utilizando la siguiente fórmula:
 ```
 BSX_price_in_KSM = total_opportunity_costs_in_KSM / total_BSX_rewards
 ```
 
-To give an example of how this would look in practice, we could work with the assumption that the Basilisk crowdloan would reach its goal of 200.000 KSM. This would entail total opportunity costs of 27.500 KSM. Applying the formula above, 1 BSX would amount to 0,0000018333 KSM or roughly $ 0,000384993 (at a KSM price of $ 210).
+Para dar un ejemplo de cómo podría verse esto en la práctica, podríamos trabajar con la suposición de que el Crowdloan de Basilisk alcanzaría su objetivo de 200.000 KSM. Esto implicaría costos de oportunidad totales de 27.500 KSM. Aplicando la fórmula anterior, 1 BSX equivaldría a 0,0000018333 KSM o aproximadamente $ 0,000384993 (a un precio de KSM de $ 210).
 
-The example above is given for illustrative purposes only. It is not possible to predict the future price of BSX with any accuracy until the crowdloan campaign has been completed successfully.
+El ejemplo anterior se proporciona solo con fines ilustrativos. No es posible predecir el precio futuro de BSX con precisión hasta que se haya completado con éxito el Crowdloan.
