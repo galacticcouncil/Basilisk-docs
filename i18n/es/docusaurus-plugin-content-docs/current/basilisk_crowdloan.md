@@ -17,7 +17,7 @@ En esta publicación, encontrará los detalles generales del Basilisk crowdloan 
 * Recompensas Totales de BSX : **15.000.000.000 BSX** (15% of total supply)
 * Recompensas maxima de HDX : **56.873.469 HDX**
 * Deadline o cierre del Crowdloan : **23 de Julio 2021**
-* Vesting period: BSX rewards and HDX bonuses are distributed linearly. The distribution will start once the Basilisk LBP event has been concluded (~2 weeks after the parachain slot is secured) and will continue until 1 week before the parachain slot expires.
+* Tiempo o Período  de Vesting :  las recompensas en BSX y el bonus en HDX se distribuyen linealmente. La distribución comenzará una vez que el evento Basilisk LBP haya concluido (~ 2 semanas después de que gane el slot parachain) y continuará hasta 1 semana antes de que expire dicho slot.
 
 ## Mecanismo de recompensas {#rewards-mechanism}
 
