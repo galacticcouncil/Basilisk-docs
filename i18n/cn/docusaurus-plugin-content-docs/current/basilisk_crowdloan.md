@@ -1,65 +1,68 @@
 ---
 id: basilisk_crowdloan
-title: Basilisk Crowdloan
+title: Basilisk 众贷
 ---
 
-The Basilisk crowdloan for the Kusama parachain auctions is now live! You can support Basilisk by participating in our crowdloan campaign and pledging some amount of KSM tokens which will be locked up for the duration of the parachain slot. In return, you will be granted **generous BSX rewards plus an HDX bonus** to cover your opportunity costs. Once the parachain slot has expired, you will receive your KSM tokens back in full. The same applies to the unlikely scenario that Basilisk does not manage to win a parachain slot within the crowdloan campaign deadline stated hereunder.
+Basilisk 众贷 Kusama 平行链拍卖现已上线！您可以通过参与我们的众贷活动并质押一定数量的 KSM 令牌来支持 Basilisk，这些令牌将在平行链插槽期间被锁定。 作为回报，您将获得 **丰厚的 BSX 奖励和 HDX 奖金** ，以弥补您的机会成本。 一旦平行链插槽到期，您将全额收到您的 KSM 令牌。 这同样适用于不太可能的情况，即 Basilisk 未能在下文所述的众贷活动截止日期内赢得平行链插槽。
 
-You can participate directly by visiting our [crowdloan page](https://loan.bsx.fi). You can also check out our [step-by-step crowdloan guide](/crowdloan_guide) which will guide you through the process. Alternatively, you can [participate in the Basilisk crowdloan via Kraken](https://www.kraken.com/learn/parachain-auctions).
+您可以通过访问我们的 **[众贷页面](https://loan.bsx.fi)** 直接参与。您还可以查看我们的 **[众贷指南](/crowdloan_guide)**，该指南将指导您一步一步完成整个过程。或者，您可以 **[通过 Kraken 参与 Basilisk 众贷](https://www.kraken.com/learn/parachain-auctions)** 。
 
-In this post you will find the general details of the Basilisk crowdloan as well as more detailed information on how the rewards mechanism works. If you are a newcomer who is interested in learning more about the project, you can check out some of the materian under `Learn` which will help you understand [parachains](/parachains), [parachain auctions](/parachain_auctions) and [crowdloans](/crowdloans).
+在这篇文章中，您将找到 Basilisk 众贷的一般细节以及有关奖励机制如何运作的更多详细信息。 如果您是一个有兴趣了解该项目的新人，可查看 `学习` 栏下的一些材料，以帮助您了解 **[平行链](/parachains)** 、**[平行链拍卖](/parachain_auctions)** 和 **[众贷](/crowdloans)** 。
 
-## Crowdloan Details {#crowdloan-details}
+## 众贷细节 {#crowdloan-details}
 
-* Parachain duration: **48 weeks**
-* Target parachain slot: **#4** (auctioned in the period **06th-13th of July 2021**)
-* Crowdloan cap: **200.000 KSM**
-* Total BSX rewards: **15.000.000.000 BSX** (15% of total supply)
-* Maximum HDX rewards: **56.873.469 HDX**
-* Crowdloan campaign deadline: **23rd of July 2021**
-* Vesting period: BSX rewards and HDX bonuses are distributed linearly. The distribution will start once the Basilisk LBP event has been concluded (~2 weeks after the parachain slot is secured) and will continue until 1 week before the parachain slot expires.
+* 平行链众贷持续时间： **48 周**
+* 目标平行链插槽： **#4**（在 **2021 年 7 月 6 日至 13 日** 期间拍卖）
+* 众筹上限： **200,000 KSM**
+* BSX 总奖励： **15,000,000,000 BSX**（总供应量的 15%）
+* 最大 HDX 奖励： **56,873,469 HDX**
+* 众筹活动截止日期： **2021 年 7 月 23 日**
+* 归属期：BSX 奖励和 HDX 奖金线性分配。 一旦 Basilisk LBP 事件结束（在平行链插槽被保护后约 2 周），分发将开始，并将持续到平行链插槽到期前 1 周。
 
-## Rewards Mechanism {#rewards-mechanism}
+## 奖励机制 {#rewards-mechanism}
 
-All community supporters are rewarded for participating in the crowdloan after Basilisk has secured a parachain slot. The available rewards consist of BSX and HDX tokens which are distributed at a different rate depending on the state of the crowdloan at the time of the contribution. The rewards mechanism has been designed with the best interest of the Basilisk stakeholders in mind. The aim is to not overpay for the parachain slot, thereby minimizing the opportunity costs for backers and maximizing the potential future upside. Below, you will find the BSX and HDX rewards mechanisms explained.
+在 Basilisk 获得平行链插槽后，所有社区支持者都会因参与众贷而获得奖励。可用的奖励包括 BSX 和 HDX 令牌，它们根据贡献时的众贷状态以不同的比率分配。 
 
+奖励机制的设计，考虑到了 Basilisk 利益相关者的最大利益。目的是不要为平行链插槽多付钱，从而最大限度地减少支持者的机会成本并最大限度地提高未来的潜在收益。下面，您将找到 BSX 和 HDX 奖励机制的解释。
 
-### BSX Rewards {#bsx-rewards}
-The amount of BSX rewards which will be received by each participant can only be determined at the end of the crowdloan campaign after Basilisk has secured a parachain slot. The calculation of the rewards consists of two steps.
+### BSX 奖金 {#bsx-rewards}
 
-In the first place, all KSM contributions are weighed using a rewards multiplier. The multiplier has a float **value between 1 and 0** depending on the point in time when the contribution was made. A rewards multiplier of **1,0** applies to all KSM which was **pledged before the target auction #4 has started closing (July 8th at roughly 09.00 GMT)**. After that, the multiplier begins to linearly decrease until it has reached **0 at the closing time of the auction (July 13th at 09.00 GMT)**. If the total pledged KSM is not sufficient for winning a slot in auction #4, then the following **auction #5 will become the new target auction**. Accordingly, the multiplier for all KSM which was pledged during the previous auction #4 will be reset to 1.
+每个参与者将获得的 BSX 奖励金额，只能在 Basilisk 获得平行链插槽后在众贷活动结束时确定。奖励的计算包括两个步骤。
 
-After the weighted KSM contributions have been established using the procedure described above, the exact amount of individual rewards is calculated. The amount of rewards is determined in accordance with the proportion of the weighted individual contribution in relation to all weighted KSM contributions, as shown in the following formula:
+首先，所有 KSM 贡献都使用奖励系数进行加权。系数是 **介于 1 和 0 之间的浮点值** ，具体取决于做出贡献的时间点。**1** 的奖励系数适用于 **在#4目标拍卖开始收市前（7 月 8 日大约格林威治标准时间 09:00）** 所有质押的 KSM 。之后，系数开始线性下降，直到在拍卖 **结束时（7 月 13 日格林威治标准时间 09:00）达到 0** 。如果质押的 KSM 总额不足以赢得拍卖 #4 的位置，那么接下来的拍卖 **#5 将成为新的目标拍卖** 。因此，在之前的 4# 拍卖中质押的所有 KSM 的系数将重置为 1。
 
-```
-rewards = (weighted_indivudial_contribution / total_weighted_contributions) * crowdloan_cap
-```
-
-While we cannot determine the exact amount of rewards until the parachain slot has actually been won, it is possible to calculate the minimum amount of BSX rewards for any given contribution. This can be done under the assumptions that the crowdloan would manage to reach its maximum cap of 200.000 KSM, and that all contributions would have the highest rewards multiplier of 1,0. This, of course, is a highly unlikely scenario but it allows us to indicate in the Crowdloan UI the minimum amount of BSX tokens that contributors can expect in return for their KSM.
-
-### HDX Bonus {#hdx-bonus}
-
-To further incentivize timely support, all crowdloan backers will receive additional HDX bonus covering **5-30% of the opportunity costs** of their KSM contribution. For a lockup period of ~11 months, these opportunity costs are currently estimated at **13,75%** (based on a 15% APY for KSM staking).
-
-Also here, the exact percentage of the opportunity costs which will be covered is determined by the state of the crowdloan at the moment when the KSM contribution is made. The HDX bonus multiplier will be at its **maximum of 0,3** while Basilisk is lagging behind its main competitor for a parachain slot. As Basilisk takes the lead over the main competitor, the bonus multiplier will start to linearly decrease towards a **minimum of 0,05**. This minimum is reached once Basilisk is leading the race by 10% or more.
-
-Taking above into account, the amount of the bonus (in KSM) for an individual contribution is calculated using the following formula:
+在使用上述计算并加权 KSM 贡献后，可以计算个人奖励的确切金额。奖励金额根据加权个人贡献占所有加权 KSM 贡献的比例确定，如下公式所示：
 
 ```
-bonus_in_KSM = contributed_KSM * opportunity_costs * bonus_multiplier
+奖励 = (个人贡献权重 / 总贡献权重) * 众贷总量
 ```
 
-At the end, the bonus is converted to HDX using the last known historical price of $ 0.08059 for 1 HDX. 
+虽然在实际赢得平行链插槽之前我们无法确定确切的奖励金额，但可以计算任何给定贡献的 **BSX 奖励最低金额** 。
 
+这可以在众贷将设法达到其最大上限 200,000 KSM 的假设下完成，并且所有贡献都将具有最高的奖励系数 1 。当然，这是一种极不可能的情况，但它允许我们在众贷界面中标明贡献者使用 KSM 可以获得 BSX 令牌的最低数量回报。
 
-## BSX Valuation {#bsx-valuation}
+### HDX 奖励 {#hdx-bonus}
 
-Finally, we would like to say a few words about the valuation of the native BSX token. An accepted way to determine the valuation of a parachain is to refer to the opportunity costs incurred by locking the pledged KSM for the duration of the parachain slot. As noted above, these opportunity costs are estimated at 13,75%. The price of the BSX token can then be calculated using the following formula:
+为了进一步激励及时的支持，所有众贷支持者将获得额外的 HDX 奖金，覆盖其 KSM 贡献 **机会成本的 5-30%** 。对于大约 11 个月的锁定期，这些机会成本目前估计为 **13.75%**（基于 KSM 质押 15% 的 APY）。
+
+同样在这里，将被覆盖的机会成本的确切百分比，由 KSM 贡献时的众贷状态决定。HDX 的奖金系数 **最大为 0.3** ，而 Basilisk 在平行链插槽方面落后于其主要竞争对手。随着 Basilisk 领先于主要竞争对手，奖金系数将开始线性下降，**最小为 0.05** 。一旦 Basilisk 领先 10% 或更多，就会达到这个最小值。
+
+考虑到上述因素，个人贡献的奖金金额（以 KSM 为单位）使用以下公式计算：
 
 ```
-BSX_price_in_KSM = total_opportunity_costs_in_KSM / total_BSX_rewards
+奖金（KSM）= 贡献的KSM * 机会成本 * 奖金系数
 ```
 
-To give an example of how this would look in practice, we could work with the assumption that the Basilisk crowdloan would reach its goal of 200.000 KSM. This would entail total opportunity costs of 27.500 KSM. Applying the formula above, 1 BSX would amount to 0,0000018333 KSM or roughly $ 0,000384993 (at a KSM price of $ 210).
+最后，使用已知的 HDX 最后历史价格 0.08059 美元/HDX 转换为 HDX。 
 
-The example above is given for illustrative purposes only. It is not possible to predict the future price of BSX with any accuracy until the crowdloan campaign has been completed successfully.
+## BSX 估值 {#bsx-valuation}
+
+最后，我们想就原生 BSX 令牌的估值说几句。确定平行链总估值的一种公认方法是参考在平行链插槽期间锁定质押的 KSM 所产生的机会成本。如上所述，这些机会成本估计为 13.75% 。然后可以使用以下公式计算 BSX 代币的价格：
+
+```
+BSX价格（KSM） = 总的机会成本（KSM） / BSX总奖励数量
+```
+
+为了举例说明在实际中的情况，我们可以假设 Basilisk 众贷将达到 200,000 KSM 的目标。这将需要 27,500 KSM 的总机会成本。应用上述公式，1 BSX 将等于 0.0000018333 KSM 或大约 0.000384993 美元（KSM 价格为 210 美元）。
+
+上面的示例仅用于说明。在众贷活动成功完成之前，不可能准确预测 BSX 的未来价格。
