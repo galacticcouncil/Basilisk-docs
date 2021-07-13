@@ -18,7 +18,7 @@ Kusama 和 Polkadot 只能支持有限数量的平行链同时连接到它们的
 平行链插槽在各自为期 1 周的单独拍卖中逐一提供。在此时间段内，候选项目可以竞标其所需持续时间的平行链插槽。可用插槽以6周为一个租赁期被划分。平行链插槽的最长租赁期时间为 48 周（8 * 6 周）。您可以在下方查看前 5 个 Kusama 插槽的拍卖时间表。
 
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
-  <img alt="create-account" src={useBaseUrl('/parachain-auctions/ksm-schedule.jpg')}  />
+  <img alt="create-account" src={useBaseUrl('/img/parachain-auctions/ksm-schedule.jpg')}  />
 </div>
 
 拍卖的获胜者，是在平行链插槽拍卖结束时 **锁定最高数量的 KSM** 的平行链候选者。然而，这可能不是很直接，因为 Kusama 使用所谓的 **蜡烛拍卖机制**，其中拍卖的结束时刻在 **最初是未知的**。
@@ -26,7 +26,7 @@ Kusama 和 Polkadot 只能支持有限数量的平行链同时连接到它们的
 如下图所示，蜡烛拍卖由开始期（1 天 21 小时）和结束期（5 天）组成。候选人可以在任何时候出价，但正式拍卖结束时间是在最后确定的，在 5 天的结束期限内随机选择一个时间。在该特定时刻出价最高的候选人是平行链插槽的获胜者。
 
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
-  <img alt="create-account" src={useBaseUrl('/parachain-auctions/auction-mechanism.jpg')}  />
+  <img alt="create-account" src={useBaseUrl('/img/parachain-auctions/auction-mechanism.jpg')}  />
 </div>
 
 这种拍卖机制背后的基本原理是防止拍卖狙击，同时促进更准确的价格发现。对于众贷支持者来说，它有一个重要的含义：尽早锁定您的 KSM 来支持 **[Basilisk 众贷](/basilisk_crowdloan)** 。这样，可确保您的贡献被计入 Basilisk 的众贷活动。
