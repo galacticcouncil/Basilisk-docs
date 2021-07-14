@@ -1,32 +1,32 @@
 ---
 id: parachains
-title: Parachains
+title: Parachaînes
 ---
 
-One of the most distinctive features of Polkadot and Kusama is the support of parachains. Parachains are individual blockchains built on Substrate which are designed to handle specific use-cases and which are connected to the so-called relay chain (i.e. Kusama or Polkadot).
+Une des caractéristiques les plus distinctives de Polkadot et Kusama est la prise en charge de parachaînes. Les parachaînes sont des chaînes de bloc construite sur Substrate qui est conçu pour gérer des cas d’utilisation spécifiques et qui sont connectées à ce que l’on appelle la chaîne relai (par exemple: Kusama ou Polkadot).
 
-For a better understanding of parachains and their place within the network, this article examines some of their defining characteristics: [specialization](#specialization), [shared security](#shared-security), [scalability](#scalability) and [interoperability](#interoperability).
-
-
-## Specialization {#specialization}
-
-The world as we know it is built upon the concept of specialization: The process of becoming experts in a particular area or skill. Parachains bring specialization into the world of blockchain. The design of Kusama empowers parachain developers to focus on the features that make their chain unique while taking advantage of shared security and interoperability.
-
-Basilisk's specialization is liquidity bootstrapping for new cryptoassets: With its modular design, Basilisk empowers long tail cryptoassets to bootstrap liquidity using an AMM model of their choice. From traditional XYK-pools, through weighted Liquidity Bootstrapping Pools and curves, all the way to auctions and an NFT marketplace: Basilisk has got you covered.
+Pour une meilleure compréhension des parachaînes et de leur place au sein du réseau, cet article examine certaines de leurs caractéristiques typiques: [spécialisation](#specialization), [sécurité partagée](#shared-security), [évolutivité](#scalability) et [interopérabilité](#interoperability).
 
 
-## Shared Security {#shared-security}
+## Spécialisation {#specialization}
 
-Security is one of the challenges that has been holding back the adoption of specialized layer-1 blockchain solutions. Obtaining a large and decentralized set of validators is key to the security of the network, however this goal might prove too ambitious to attain for some niche projects.
+Le monde tel que nous le connaissons est construit sur le concept de spécialisation: le processus de devenir experts dans dans certains domaines ou certaines compétences. Les parachaînes apporte la spécialisation dans le monde des chaînes de bloc. La conception de Kusama permet aux développeurs de se concentrer sur les caractéristiques qui rendent leur chaîne unique tout en possédant les avantages de la sécurité partagée et de l’interopérabilité.
 
-All Kusama parachains enjoy industrial-grade security which comes out of the box. They are connected to the relay chain (Kusama) and secured by its set of validators. Parachains have their own sets of collators that are responsible for maintaining a full-node of the parachain and for producing new block candidates. The produced block candidates are passed to the validators of the relay chain which verify the blocks and include them in the shared state of Kusama. As a result, parachains share the same high level of security as Kusama itself.
-
-
-## Scalability {#scalability}
-
-Despite being connected to the relay chain, parachains remain independent layer-1 blockchains that produce their own blocks. This design feature has great performance implications because it allows transactions to be processed by different chains in parallel. The capability of parallel processing underpins the infamous scalability and high throughput of the Kusama network.
+La spécialisation de Basilisk est la gestion de liquidité pour de nouveaux actifs crypto: avec sa conception modulaire, Basilisk habilite les actifs crypto à longue train à gérer leur liquidité en utilisant un modèle AMM (faiseur de marché automatisé) de leur choix. Des traditionnelles pools XYK, en passant par les pools et courbes de gestion de liquidités pondérées, jusqu’aux enchères et au marché de NFT: Basilisk assure vos arrières.
 
 
-## Interoperability {#interoperability}
+## Sécurité Partagée {#shared-security}
 
-All parachains that are connected to the Kusama relay chain can communicate with each other using a feature called Cross-Chain Message Passing (XCMP). XCMP empowers individual parachains not only to exchange tokens but also richer information such as smart contracts, thus paving the way for the DeFi expansion. Kusama's interoperability is a stepping stone towards the multi-chain future where cross-chain transfers become part of our daily lives.
+La sécurité est un des défis qui a freiné l’adoption des solutions de chaînes de bloc de couche première (layer-1) spécialisées. Avoir un ensemble de validateurs large et décentralisé est la clé pour la sécurité du réseau, toutefois, cet objectif pourrait être trop ambitieux à atteindre pour certains projets niches.
+
+Toutes les parachaînes Kusama profitent d’une sécurité de niveau industriel directement disponible. Elles sont connectées à la chaîne relai (Kusama) et sécurisées par leurs ensembles de validateurs. Les parachaînes ont leur propre ensemble d’assembleurs qui sont responsable de maintenir un node complet de la parachaîne et de produire de nouveaux blocs candidats. Les blocs candidats produits sont passés aux validateurs de la chaîne relai qui vérifie les blocs et les inclus dans l’état partagé de Kusama. Par conséquent les parachaînes partagent le même niveau de sécurité que Kusama lui-même.
+
+
+## Évolutivité {#scalability}
+
+Bien qu’étant connectées à la chaîne relai, les parachaînes restent des chaînes de bloc de couche-1 qui produisent leurs propres blocs. Cette caractéristique de conception a de grandes implications de performance parce que ça permet aux transactions d’être traitées sur différentes chaînes en parallèle. La capacité de traitement parallèle souligne l’évolutivité et le haut débit du réseau Kusama.
+
+
+## Interopérabilité {#interoperability}
+
+Toutes les parachaînes qui sont connectées la chaîne relai Kusama peuvent communiquer les unes avec les autres en utilisant une caractéristique appelée «Cross-Chain Message Passing» (XCMP), qui veut dire, passage de messages inter-chaîne. XCMP habilite les parachaînes individuelles à, non seulement échanger des tokens mais aussi des informations plus fournies telles que des contrats intelligents (smart contracts), ouvrant ainsi la voie pour l’expansion des DeFi (Decentralized Finance: Protocole de Finance décentralisée). L’interopérabilité de Kusama est tremplin vers le futur multi-chaînes ou les transferts inter chaînes deviennent une partie de notre quotidien. 

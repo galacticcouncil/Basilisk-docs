@@ -1,33 +1,33 @@
 ---
 id: parachain_auctions
-title: Parachain Auctions
+title: Enchère de parachaînes
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Parachain auctions provide a mechanism to distribute the available [parachain](/parachains) slots in Kusama to the most appropriate candidates. This article introduces parachain auctions by exploring two questions: Why do we have parachain auctions, and how do they work?
+Les enchères de parachaînes fournissent une mécanique pour distribuer les places de [parachaînes](/parachains) disponible sur Kusama au candidat le plus approprié. Cet article va présenter les enchères de parachaînes en explorant deux questions:
 
-## Why? {#why}
+## Pourquoi? {#why}
 
-Kusama and Polkadot are only able to support a limited number of parachains which are connected to their relay chain at the same time. The long-term goal for Polkadot is 100 parachains, while Kusama is kicking off the party with 5 parachains in the first round and another 5 to follow shortly thereafter.
+Kusama et Polkadot sont seulement capable de supporter un nombre limité de parachaînes qui sont connectées à leur chaîne relai en même temps. L’objectif à long terme pour Polkadot est de 100 parachaînes, tandis que Kusama inaugure la fête avec 5 parachaînes dans le premier round et 5 autres qui suivront peu de temps après.
 
-Against this background, parachain auctions were introduced as a market-efficient instrument for dealing with the scarcity by distributing the available slots to the most appropriate parachain candidates.
+Dans ce contexte, les enchères de parachaînes sont introduites comme un instrument efficace de marché pour faire face à la rareté en distribuant les places disponible aux candidats aux parachaînes les plus appropriés.
 
 
-## How do Parachain Auctions work? {#how}
+## Comment les enchères de parachaînes se déroulent-elles ? {#how}
 
-Parachain slots are offered on an one-by-one basis in separate auctions which have the duration of 1 week. During this timeframe, candidate projects can bid on a parachain slot of their desired duration. The available slots are divided into lease periods of 6 weeks. The maximum duration of a parachain slot is 48 weeks (8 * 6 weeks). Below, you can see the auctions schedule for the first 5 Kusama slots.
+Les places de parachaînes sont offertes une à une dans des enchères séparées d’une durée d’une semaine. Pendant ce laps de temps,  les projets candidats vont miser sur une place de parachaîne d’une durée de leur choix. Les places disponibles sont divisées en périodes de location de 6 semaines. La durée maximum d’une place de parachaîne est de 48 semaines ( 8 * 6 semaines). Ci-dessous, vous pouvez voir le planning des enchères pour les 5 premières places sur Kusama.
 
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <img alt="create-account" src={useBaseUrl('/img/parachain-auctions/ksm-schedule.jpg')}  />
 </div>
 
-The winner of the auction is the parachain candidate that has offered the **highest amount of KSM to be locked up** for the duration of the parachain slot at the closing moment of the auction. However, this might not be very straight-forward because Kusama uses the so-called **candle auction mechanism** in which the closing moment of the auction is **initially unknown**.
+Le gagnant de l’enchère est au candidat à la parachaîne qui a offert le **plus haut montant de KSM à être vérouillé pendant** la durée de la place de parachaîne à l’instant de clôture de l’enchère. Cependant, cela ne pourrait pas être très direct parce que Kusama utilise la mécanique dite de **l’enchère à la bougie** pour laquelle l’instant de clôture est **initialement inconnu**.
 
-As illustrated by the image below, the candle auctions consist of a starting period (1 day 21 hours) and an ending period (5 days). Candidates are able to bring out their bids at any moment, however the official auction closing moment is determined at the very end by picking a random moment somewhere within the ending period of 5 days. The candidate with the highest bid at that specific moment is the winner of the parachain slot.
+Comme illustré dans l’image ci-dessous, les enchères à la bougie se composent d’une période de départ ( 1 jour et 21 heures) et d’une période de fin ( 5 jours).  Les candidats sont en mesures d’apporter leurs enchères à n’importe quel moment, cependant, l’instant de clôture officiel de l’enchère est déterminé au tout dernier moment en choisissant aléatoirement un point dans le temps dans cette période de fin de 5 jours. Le candidat avec la plus haute enchère à ce moment particulier est le gagnant de la place de parachaîne.
 
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <img alt="create-account" src={useBaseUrl('/img/parachain-auctions/auction-mechanism.jpg')}  />
 </div>
 
-The rationale behind this auction mechanism is to prevent auction sniping while promoting a more accurate price discovery. For crowdloan backers, it has an important implication: Support the [Basilisk crowdloan](/basilisk_crowdloan) by locking your KSM early rather than late. This way, you make sure that your contribution is counted towards the winning bid of Basilisk.
+La justification derrière cette mécanique d’enchère est d’empêcher un «auction sniping» (de renchérir dans les dernières secondes de l’enchère) tout en favorisant une découverte de prix plus précise. Pour les soutiens du crowdloan (prêt participatif), cela a une implication importante: Soutenir le prêt [participatif de Basilisk](/basilisk_crowdloan) en vérouillant vos KSM le plus tôt possible. De cette façon, vous vous assurez que votre contribution est compté pour l’enchère gagnante de Basilisk.
