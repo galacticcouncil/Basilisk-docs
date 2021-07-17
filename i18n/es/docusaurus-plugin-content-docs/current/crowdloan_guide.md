@@ -5,27 +5,27 @@ title: Participar en el Crowdloan
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-TEste artículo lo guía a través del proceso para participar en el [Basilisk crowdloan](/basilisk_crowdloan) utilizando la página crowdloan UI : https://loan.bsx.fi
+Este artículo lo guía a través del proceso para participar en el [Basilisk crowdloan](/basilisk_crowdloan) utilizando la página crowdloan UI : https://loan.bsx.fi
 
 ## Requisitos  {#requirements}
 
-Para participar utilizando la página para el crowdloan, yebe tener una [Polkadot.js wallet](https://polkadot.js.org/extension/) que contenga los tokens KSM que desea bloquear.
+Para participar utilizando la página para el crowdloan, y debe tener una [Polkadot.js wallet](https://polkadot.js.org/extension/) que contenga los tokens KSM que desea bloquear.
 
 :::caution
 
-No es posible participar en el crowdloan utilizando una billetera de hardware. Actualmente, las carteras de hardware no son compatibles con el módulo crwodloan de Kusama.
+No es posible participar en el crowdloan utilizando una billetera de hardware. Actualmente, las billeteras de hardware no son compatibles con el módulo crwodloan de Kusama.
 
 :::
 
 ## 00 Crowdloan UI {#00-crowdloan-ui}
 
-Para accerder al Basilisk Crowdloan UI, navegue a https://loan.bsx.fi.
+Para acceder al Basilisk Crowdloan UI, navegue a https://loan.bsx.fi.
 
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <img alt="create-account" src={useBaseUrl('/img/crowdloan-guide/chart.png')}  />
 </div>
 
-El gráfico en el medio proporciona información sobre la subasta en curso para el slot parachain. La línea verde muestra la cantidad de tokens KSM que ha recaudado Basilisk, mientras que la línea amarilla corresponde al KSM recaudado por el principal competidor de Basilisk. La línea roja horizontal marca el comienzo del período de cierre de la subasta  del slot objetivo. . Toda esta información es relevante para determinar la cantidad de [recompensas en BSX y el HDX bonus](/basilisk_crowdloan) que recibirá por su contribución.
+El gráfico en el medio proporciona información sobre la subasta en curso para el slot parachain. La línea verde muestra la cantidad de tokens KSM que ha recaudado Basilisk, mientras que la línea amarilla corresponde al KSM recaudado por el principal competidor de Basilisk. La línea roja horizontal marca el comienzo del período de cierre de la subasta  del slot objetivo. Toda esta información es relevante para determinar la cantidad de [recompensas en BSX y el HDX bonus](/basilisk_crowdloan) que recibirá por su contribución.
 
 ## 01 Seleccione su dirección{#01-select-address}
 
