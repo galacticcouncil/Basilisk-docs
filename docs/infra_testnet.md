@@ -1,16 +1,18 @@
-# Design and Automation of our Tesnet Deployment at HydraDX
+---
+id: infra_testnet
+title: Testnet Deployment
+---
 
-In this article, we are going to show you how we designed and automated our pipeline to be able to deploy a new testnet (Parachain + Relaychain) within minutes using Kubernetes (EKS Fargate), AWS ACM, Route53, Terraform and Github Actions.
+This article shares the manifests and other yaml configurations which we have put together for the automated deployment of our testnet (Relay Chain + Parachain). If you are interested to find out more about our journey towards cutting-edge automated deployment using Kubernetes, together with the technical decisions we had to make on the way, [please check out this blog post](#link-to-blog).
 
-## The choice of EKS with Fargate
-### Why EKS with Fargate?
-Our Parachain and Relaychain images are based on two separate images, which need one or more containers to run for each. Kubernetes being the standard of container automation and scaling in the industry today, we naturally made this choice (Docker Swarm has some serious scaling issues that we might talk about in a separate article, if interest be.)
+## Technologies used {#technologies}
+* Kubernetes - we run it in the cloud (AWS Fargate), mainly for convenience reasons. However, you can adapt the yaml manifests to spin up your own K8s cluster.
+* Terraform - because we like having our infra as code.
+* GitHub Actions - for CI/CD.
 
-Now, since our infrastructure is partially based on AWS, we had the choice between having either EKS with EC2 instances running under the hood, or using Fargate. The difference between the two is that, with EC2, you have less flexibility as far as controlling the resources is concerned; if you have no idea about the number of pods you need to be running in the future, you most likely will have to overestimate the capacity (CPU / RAM power as well as the number) of your instances, which may result in useless capacity lost and higher bills. Another reason is that these EC2 instances need to be administrated, which needs time and resources.
+## Cluster configuration {#cluster-config}
 
-For these reasons, we came to the conclusion that the usage of Fargate might be a better solution for dealing with our deployments and to be able to scale (either up or down) them correctly. In Fargate, you don't need to worry about instances or servers, all you have to do (in a nutshell) is to write your Kubernetes Manifests, apply those, and AWS will take care of the rest; i.e. provisioning the servers, planning the pods, etc.
-
-To create a Kubernetes Instance in AWS, you can either use EKSCTL or Terraform. Nothing fancy here. Here is an example for creating a Fargate Cluster (from the documentation):
+Since we decided to run our Kubernetes cluster in the cloud with AWS Fargate, we can use the following yaml manifest for the cluster configuration:
 
 ```yaml
 apiVersion: eksctl.io/v1alpha5
@@ -44,10 +46,14 @@ fargateProfiles:
           checks: passed
 ```
 
-Once done, all we had to do is to create and apply our Kubernetes Objects.
+Once we have this sorted out, it is time to create and apply the Kubernetes objects needed for the Relay Chain and the Parachain.
 
-### Deployment of our Relaychain
-#### Deployment Example:
+## Relay Chain {#alice}
+First is Alice. We will create 3 types of objects: a Deployment, a Service and an Ingress object.
+
+### Deployment {#alice-deployment}
+In this manifest, we choose the name of our node, the ports to expose, the command and its arguments, as well as the number of replicas. This parameter is important as we only want one replica per node in order to avoid sync issues. Note that you can have as many nodes as necessary.
+
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
@@ -75,14 +81,10 @@ spec:
         - containerPort: 30333
 ```
 
-In this manifest, we choose the name of our node, the ports to expose, the command and its argument (please check HydraDX docs) as well as the number of replicas. This parameter is important as we only want one replica per node, to avoid sync issues. Note that you can have as many nodes as necessary.
-
-#### Service Example
+### Service {#alice-service}
 We use the Service object in Kubernetes for at least two purposes here:
-1. First, so nodes can communicate with each other, please check [this link for more info](https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/)
-2. To be able to expose the service to the outside world, if necessary, using an ingress controller.
-
-Nothing fancy, just yet another basic service:
+1. In the first place, we want to allow nodes to communicate with each other (please check [this link for more info](https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/)).
+2. In the second place, we will be able to expose the service to the outside world using an Ingress object as described in the following step.
 
 ```yaml
 apiVersion: v1
@@ -105,11 +107,13 @@ spec:
     app.kubernetes.io/name: relaychain-alice
 ```
 
-Please note that, if you wish to expose the service to the outside world, the `selector` parameter becomes crucial.
+Please note that if you wish to expose the service to the outside world, the `selector` parameter has a crucial role.
 
-And voilà ! That's it. Now one last step is when we want to expose a Service (related to a given Deployment) to the outside world. For this, we use what we call an Ingress Object:
+### Ingress {#alice-ingress}
+The Ingress object exposes our service to the outside world (in our case using the host address `relaychain.hydration.cloud`). For this purpose, we are using the ALB Controller Service of AWS ([more information here](https://docs.aws.amazon.com/eks/latest/userguide/alb-ingress.html)).
 
-#### Ingress Example:
+The parameters of the Ingress object are pretty much basic, and can largely be kept as-is ([more info here](https://kubernetes-sigs.github.io/aws-load-balancer-controller/v2.2/guide/ingress/annotations/)). The most important value to adjust is the one of `alb.ingress.kubernetes.io/certificate-arn`, which is the identifier of the ACM Certificate you get when you create an entry in [ACM](https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html) for your `host`. More details on this later on.
+
 
 ```yaml
 apiVersion: extensions/v1beta1
@@ -143,15 +147,11 @@ spec:
 
 ```
 
-This object, namely `Ingress`, is used so our service can be accessible from the outside world using the host address `relaychain.hydration.cloud`. For this, we use the ALB Controller Service of AWS [More information here](https://docs.aws.amazon.com/eks/latest/userguide/alb-ingress.html)
 
-Parameters of this Ingress are pretty much basic, and can be kept as is [for more info, please check this link](https://kubernetes-sigs.github.io/aws-load-balancer-controller/v2.2/guide/ingress/annotations/). The most important value to change, is the one of `alb.ingress.kubernetes.io/certificate-arn`, which is the identifier of the ACM Certificate you get when you create an entry in [ACM](https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html) for your `host`. More details later on in this article.
+## Parachain {#bob}
+After Alice is all set up, it is now time to take care of Bob. Also here, we will be creating the same types of objects: a Deployment for the collator, the necessary Services and an Ingress object. 
 
-### Deployment of our Parachain
-
-Since the steps are pretty much the same, here are simply samples for each object we used to deploy our Parachain:
-
-#### Deployment Example (collator):
+### Deployment (collator) {#bob-deployment}
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
@@ -186,7 +186,8 @@ spec:
           persistentVolumeClaim:
             claimName: efs-pv  
 ```
-#### Service Example:
+
+### Service {#bob-service}
 
 ```yaml
 apiVersion: v1
@@ -212,7 +213,10 @@ spec:
     app.kubernetes.io/name: parachain-coll-01
 ```
 
-#### Public RPC Service:
+### Public RPC {#bob-rpc}
+
+In the cases of Bob, we also want to expose port `9944` which is used for RPC connections to the node.
+
 ```yaml
 apiVersion: v1
 kind: Service
@@ -229,17 +233,16 @@ spec:
   selector:
     app.kubernetes.io/name: public-rpc
 ```
-#### Ingress:
-Ingress Manifest remains exactly the same.
-### What are the challenges we faced?
-Apart from the choice that we had to make between EC2 and Fargate instances, we had an issue that wasn't that easy to be dealt with: namely, the **volumes**. During our deployment, we found out that we had to pass a configuration to our Basilisk Command, which could not be stored in a `config-map`, since the configuration was more than 4MB in size, whereas config-maps can only store up to 1MB. Now the problem is that, this is something pretty straight forward to do in Kubernetes (create a Volume, put a file or folder inside and use it from other pods) with EC2, the task isn't so simple with Fargate. In Fargate, Volumes were not supported until August 2020, and the feature is still not mature. So if you have to heavily use volumes in your Kubernetes Deployment, please take this into account. We could however solve this issue following this [documentation, with AWS EFS](https://aws.amazon.com/blogs/aws/new-aws-fargate-for-amazon-eks-now-supports-amazon-efs/). This link will save your ass if you have to use volumes with Fargate, trust me.
 
+### Ingress {#bob-ingress}
+The Ingress manifest for Bob is the same as the one for [Alice above](#alice-ingress).
 
 ## ACM and Route53
-If you need to expose your node to the outside world, with a nice and secured URL, you can use AWS ACM. Basically, all you need to do is to create a certificate with the name of your URL, validate it (via DNS), and get the result ARN. Then add it as a value of the `alb.ingress.kubernetes.io/certificate-arn` parameter in your Ingress Manifest file, and voilà !
+If you need to expose your node to the outside world with a nice and secure URL, you can use AWS ACM. Basically, all you need to do is to create a certificate with the name of your URL, validate it (via DNS) and get the result ARN. Then add it as a value of the `alb.ingress.kubernetes.io/certificate-arn` parameter in your Ingress Manifest file, and voilà!
 
-## Terraform for Automated Deployment
-Of course, the creation of your certificate can be done through Terraform, if you want to automate it in your CI (we didn't make this choice, but we will probably deploy it later). However, this .tf file might be of a great help to you:
+## Terraform for Automated Provisioning
+Of course, the creation of your certificate can be done through Terraform in case you want to automate it in your CI (we didn't make this choice yet, but we still might do so in the future). For some inspiration you can take a look at the `.tf` file below:
+
 ```
 provider "aws" {
   region = "eu-west-1"
@@ -297,10 +300,10 @@ output "acm-arn" {
 
 ```
 
-The output value of this TF is the ARN to be used in your `Ingress` Manifest file.
-## Github Actions to wrap it all
+The output value of this TF is the ARN to be used in your `Ingress` manifest file.
 
-Of course, you can just write your manifest files, and deploy your Kubernetes Objects using `kubectl apply`, but you might as well want to do it through a CI-CD. We use Github Actions, and it's pretty straightforward:
+## Github Actions
+After having the manifests ready, it is time to bring everything together and deploy the defined Kubernetes objects. Instead of using `kubectl apply`, we decided to integrate it in a CI/CD pipeline. We use Github Actions, and it's pretty straight-forward:
 
 ```yaml
 name: deploy app to k8s and expose
@@ -346,6 +349,7 @@ jobs:
           sed -i 's/_NAMESPACE_/${{ env.NAMESPACE }}/g' components.yaml
           kubectl apply -f components.yaml
 ```
-This workflow basically creates the fargate profile as well as depoys your manifest file containing all your Kubernetes Objects to your chosen Cluster. Of course, make sure you give the right access and secret keys :).
 
-Good luck!
+This workflow creates the AWS Fargate profile after which it deploys the manifest file containing all your Kubernetes objects to the chosen Cluster. Don't forget to provide the correct access and secret keys :)
+
+Good luck and hit us up on Discord if you have any questions!
