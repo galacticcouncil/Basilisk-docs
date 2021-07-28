@@ -10,6 +10,9 @@ module.exports = {
       "parachain_auctions",
       "crowdloans"
     ],
+    Build: [
+      "infra_testnet"
+    ],
     "Help with Docs": ["contributing"]
   }
 };
