@@ -3,7 +3,7 @@ id: infra_testnet
 title: Testnet Deployment
 ---
 
-This article shares the manifests and other yaml configurations which we have put together for the automated deployment of our testnet (Relay Chain + Parachain). If you are interested to find out more about our journey towards cutting-edge automated deployment using Kubernetes, together with the technical decisions we had to make on the way, [please check out this blog post](#link-to-blog).
+This article shares the manifests and other yaml configurations which we have put together for the automated deployment of our testnet (Relay Chain + Parachain). If you are interested to find out more about our journey towards cutting-edge automated deployment using Kubernetes, together with the technical decisions we had to make on the way, [please check out this blog post](https://basiliskfi.substack.com/p/automation-of-our-testnet-deployment).
 
 ## Technologies used {#technologies}
 * Kubernetes - we run it in the cloud (AWS Fargate), mainly for convenience reasons. However, you can adapt the yaml manifests to spin up your own K8s cluster.
