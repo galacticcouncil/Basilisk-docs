@@ -2,7 +2,8 @@ module.exports = {
   sidebar: {
     General: [
       "intro",
-      "basilisk_crowdloan"
+      "basilisk_crowdloan",
+      "tokenomics"
     ],
     "How-to": ["crowdloan_guide"],
     Learn: [
