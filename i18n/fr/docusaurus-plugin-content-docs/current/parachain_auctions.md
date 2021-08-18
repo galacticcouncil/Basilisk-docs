@@ -22,7 +22,7 @@ Les places de parachaînes sont offertes une à une dans des enchères séparée
   <img alt="create-account" src={useBaseUrl('/img/parachain-auctions/ksm-schedule.jpg')}  />
 </div>
 
-Le gagnant de l’enchère est au candidat à la parachaîne qui a offert le **plus haut montant de KSM à être vérouillé pendant** la durée de la place de parachaîne à l’instant de clôture de l’enchère. Cependant, cela ne pourrait pas être très direct parce que Kusama utilise la mécanique dite de **l’enchère à la bougie** pour laquelle l’instant de clôture est **initialement inconnu**.
+Le gagnant de l’enchère est le candidat de la parachaîne qui a offert le **plus haut montant de KSM à être vérouillé** pendant la durée de la place de parachaîne à l’instant de clôture de l’enchère. Cependant, cela ne pourrait pas être très direct parce que Kusama utilise la mécanique dite de **l’enchère à la bougie** pour laquelle l’instant de clôture est **initialement inconnu**.
 
 Comme illustré dans l’image ci-dessous, les enchères à la bougie se composent d’une période de départ ( 1 jour et 21 heures) et d’une période de fin ( 5 jours).  Les candidats sont en mesures d’apporter leurs enchères à n’importe quel moment, cependant, l’instant de clôture officiel de l’enchère est déterminé au tout dernier moment en choisissant aléatoirement un point dans le temps dans cette période de fin de 5 jours. Le candidat avec la plus haute enchère à ce moment particulier est le gagnant de la place de parachaîne.
 

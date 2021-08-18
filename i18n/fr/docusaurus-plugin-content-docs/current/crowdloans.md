@@ -3,13 +3,13 @@ id: crowdloans
 title: Crowdloans Prêts participatifs
 ---
 
-Les «crowdloans» (prêts participatifs) aident les candidats aux [parachaînes](/parachains) à lever des fonds suffisants pour gagner une place dans les [enchères de parachaînes](/parachain_auctions). Cette article fournit une compréhension générale de comment les «crowdloans» fonctionnent. Pour des informations spécifiques sur notre campagne courante de crowdloan (prêt participatifs), veuillez vous diriger sur la page de [crowdloan de Basilisk](/basilisk_crowdloan).
+Les «crowdloans» (prêts participatifs) aident les candidats aux [parachaînes](/parachains) à lever des fonds suffisants pour gagner une place dans les [enchères de parachaînes](/parachain_auctions). Cet article fournit une compréhension générale du fonctionnement des «crowdloans». Pour des informations spécifiques sur notre campagne en cours de crowdloan (prêt participatifs), veuillez vous diriger sur la page de [crowdloan de Basilisk](/basilisk_crowdloan).
 
 ## Comment le Crowdloan fonctionne? {#how}
 
-Les candidats aux parachaînes peuvent initier une campagne de crowdloan (prêts participatifs) en utilisant les module de crowdloan dédié de Kusama. En ce faisant, ils définissent un objectif (le montant de KSM à lever) ainsi que la date de fin. La campagne de crowdloan est normalement initiées avant le début de l’enchère de parachaîne, ainsi donnant au candidat assez de temps pour lever des fonds.
+Les candidats aux parachaînes peuvent initier une campagne de crowdloan (prêts participatifs) en utilisant les modules de crowdloan dédiés de Kusama. En ce faisant, ils définissent un objectif (le montant de KSM à lever) ainsi que la date de fin. La campagne de crowdloan est normalement initiée avant le début de l’enchère de parachaîne, donnant ainsi au candidat assez de temps pour lever des fonds.
 
-Les participants au crowdloan (prêt participatif) soutiennent le candidat à la parachaîne de leur choix en vérouillant un certain montant de KSM qui devra être utilisé pour enchérir dans l’enchère de parachaîne. Les KSM restent vérouillés jusqu’à ce qu’un des évènement ci-après ait été déclenché:
+Les participants au crowdloan (prêt participatif) soutiennent le candidat à la parachaîne de leur choix en vérouillant un certain montant de KSM qui devra être utilisé pour enchérir dans l’enchère de parachaîne. Les KSM restent vérouillés jusqu’à ce qu’un des évènements ci-dessous ait été déclenché:
 
 * Si le candidat gagne une place de parachaîne: après que la durée de la place de parachaîne arrive à expiration (48 semaines pour Basilisk)
 * Si le candidat ne remporte pas la place de parachaîne: Une fois que l’objectif de prêt participatif ait été atteint ou que la campagne de prêt participatif arrive à expiration.
