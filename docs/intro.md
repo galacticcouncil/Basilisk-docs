@@ -12,7 +12,7 @@ Before you continue, don't forget to subscribe to the [Basilisk newsletter](http
 
 The Basilisk crowdloan for the Kusama parachain auctions is now live! Check out [this post](/basilisk_crowdloan) for more details, as well as [the step-by-step guide](/crowdloan_guide) on how to participate.
 
-Not feeling like you really understand concepts such as [parachains](/parachains), [parachain auctions](/parachain_auctions) or [crowdloans](/crowdloans)? Don't worry, we've got you covered! In our `Knowledge Base` you will find some useful introductory resources which will make you feel more comfortable with these subjects.
+Not feeling like you really understand concepts such as [parachains](/parachains), [parachain auctions](/parachain_auctions) or [crowdloans](/crowdloans)? Don't worry, we've got you covered! In the `Learn` section you will find some useful introductory resources which will make you feel more comfortable with these subjects.
 
 ## What is Basilisk? {#what-is-basilisk}
 
