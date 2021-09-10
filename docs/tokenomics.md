@@ -1,29 +1,29 @@
 ---
 id: tokenomics
-title: Tokenomics
+title: Токеномика
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-The native BSX token has a max supply of **100,000,000,000 BSX**.
+Собственный токен BSX имеет максимальный запас **100,000,000,000 BSX**.
 
-The tokens will be distributed as follows (cumulative % of max supply):
+Токены будут распределены следующим образом (суммарный % от максимального количества):
 
-* **15%** - Basilisk Crowdloan
-* **5.63%** - BSX LBP Participants
-* **4.37%** - HDX LBP Participants
-* **15%** - Intergalactic (founding team)
-* **9%** - Treasury
-* **38%** - Liquidity Mining
-* **12%** - Collators
-* **1%** - Airdrop to all wallets holding KSM
+* **15%** - Василиск Краудлоан
+* **5.63%** - BSX LBP Участникам
+* **4.37%** - HDX LBP Участникам
+* **15%** - Intergalactic (команде фаундеров)
+* **9%** - Казначейство
+* **38%** - Майнинг ликвидности
+* **12%** - Коллаторы
+* **1%** - Аирдроп на все кошельки, с которых залочили KSM
 
-The BSX allocations are subject to a vesting period as exemplified in the following distribution graphic:
+Распределения BSX происходит, как показано на следующем графике:
 
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <img alt="create-account" src={useBaseUrl('/img/tokenomics/bsx_distribution.jpg')}  />
 </div>
 
-Notes:
-* The distribution of all tokens will **begin after the BSX LBP event has concluded**. The BSX LBP event will take place approximately 2-4 weeks after Basilisk has secured its first parachain slot.
-* The exact start date of the rewards for collators and liquidity miners is currently unknown. This should take place within several weeks after conclusion of the BSX LBP event.
+Примечание:
+* Распределение всех токенов начнется **после завершения мероприятия BSX LBP**. Мероприятие BSX LBP состоится примерно через 2-4 недели после того, как Василиск получит свой первый слот парачейна.
+* Точная дата начала вознаграждений для коллаторов и майнеров ликвидности в настоящее время неизвестна. Это должно произойти в течение нескольких недель после завершения BSX LBP мероприятия.
