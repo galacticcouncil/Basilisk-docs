@@ -16,7 +16,7 @@ The tokens will be distributed as follows (cumulative % of max supply):
 * **9%** - Treasury
 * **38%** - Liquidity Mining
 * **12%** - Collators
-* **1%** - Airdrop to all wallets holding KSM
+* **1%** - Airdrop to active KSM wallets
 
 The BSX allocations are subject to a vesting period as exemplified in the following distribution graphic:
 
