@@ -8,7 +8,7 @@ The Basilisk crowdloan is now closed after a successful bid for a parachain slot
 ## Crowdloan Stats {#crowdloan-stats}
 
 * Crowdloan cap: **222,222 KSM**
-* Crowdloan contributions: **222,221.915 KSM**
+* Crowdloan raised: **222,221.915 KSM**
 * Contributions: **18,560**
 * Unique contributors: **11,891**
 * Winning auction: **#8**
