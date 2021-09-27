@@ -3,12 +3,6 @@ id: basilisk_crowdloan
 title: Basilisk Crowdloan
 ---
 
-El [Basilisk crowdloan](https://basiliskfi.substack.com/p/the-snek-is-back) para la subastas de los slot en Kusama, ya esta disponible!  Puede apoyar a Basilisk participando en nuestro crowdloan comprometiendo una cierta cantidad de tokens KSM que estarán bloqueados durante la duración del slot parachain.A cambio, se le otorgarán **generosas recompensas BSX más un bono en HDX** para cubrir sus costos de oportunidad. Una vez que el slot haya expirado, recibirá sus tokens KSM en su totalidad. Lo mismo se aplica al improbable escenario de que Basilisk no logre ganar un slot parachain  dentro del plazo del crowdloan establecido a continuación.
-
-Puede participar directamente visitando nuestra [pagina para crowdloan](https://loan.bsx.fi). También puede consultar nuestra [guia crowdloan](/crowdloan_guide) que lo guiará a través del proceso.  Alternativamente, puede participar utilizando [Fearless Wallet](https://fearlesswallet.io/#) o [via Kraken](https://www.kraken.com/learn/parachain-auctions).
-
-En esta publicación, encontrará los detalles generales del Basilisk crowdloan , así como información más detallada sobre cómo funciona el mecanismo de recompensas. Si es un recién llegado que está interesado en aprender más sobre el proyecto, puede consultar algunos de los materiales `Aprende` que le ayudarán a comprender las[parachains](/parachains), [parachain auctions](/parachain_auctions) y [crowdloans](/crowdloans).
-
 ## Detalles de Crowdloan {#crowdloan-details}
 * Visita: https://loan.bsx.fi/
 * Comienza el: **31 August 2021**
