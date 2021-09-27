@@ -8,12 +8,6 @@ Bienvenue sur la page de documentation de Basilisk! Ici vous pourrez trouver une
 
 Avant de continuer, n’oubliez pas de vous inscrire à la [newsletter de Basilisk](https://basiliskfi.substack.com) pour ne pas manquer de mises à jour importantes.
 
-## Basilisk Crowdloan (prêt  participatif) {#crowdloan}
-
-Le crowdloan (prêt participatif) Basilisk pour les enchères des parachaînes Kusama a maintenant commencé ! Consultez [cette page](/basilisk_crowdloan) pour plus d’informations, ainsi que ce [Guide-pas-à-pas](/crowdloan_guide) Sur comment participer.
-
-Vous ne pensez pas vraiment comprendre des concepts comme [Parachaînes](/parachains), [enchères de parachaînes](/parachain_auctions) ou [crowdloans (prêt participatifs)](/crowdloans)? Ne vous en faites pas, nous sommes là pour vous! Dans notre base de savoir vous trouverez des ressources d’introduction qui vont vous éclairer pour être plus à l’aise sur ces sujets.
-
 ## Qu’est-ce que Basilisk? {#what-is-basilisk}
 
 Basilisk est un protocole de liquidity bootstrapping (gestion de liquidité entre plusieurs actifs) construit pour Kusama. Sa mission est de permettre des liquidités sans frictions pour les actifs à longue traîne.

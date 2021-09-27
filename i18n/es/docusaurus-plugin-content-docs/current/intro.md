@@ -6,15 +6,7 @@ slug: /
 
 ¡Bienvenido a la página de documentación de Basilisk! Aquí puede encontrar una colección de recursos útiles que lo ayudarán a navegar su viaje por Basilisk. El contenido disponible crecerá a medida que se desarrolle el proyecto, y prometemos hacer todo lo posible para proporcionar traducciones de manera oportuna para garantizar que todos puedan participar.
 
-
-
 Antes de continuar, no olvide suscribirse al [Basilisk newsletter](https://basiliskfi.substack.com) para no perderse ninguna actualización importante.
-
-## Basilisk Crowdloan {#crowdloan}
-
-El crowdloan de Basilsik para las parachain auctions, ya está disponible! Consulte [este post](/basilisk_crowdloan) para más detalles, así como [la guía paso a paso](/crowdloan_guide) sobre cómo participar.
-
-¿No sientes que realmente entiendes conceptos como [parachains](/parachains), [parachain auctions](/parachain_auctions) o [crowdloans](/crowdloans)? No se preocupe, ¡lo tenemos cubierto! En nuestro `Knowledge Base` encontrará algunos recursos introductorios útiles que lo harán sentir más cómodo con estos temas.
 
 ## ¿Qué es Basilisk? {#what-is-basilisk}
 
