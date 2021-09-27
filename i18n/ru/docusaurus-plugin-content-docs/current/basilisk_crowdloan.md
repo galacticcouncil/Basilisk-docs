@@ -3,28 +3,23 @@ id: basilisk_crowdloan
 title: Basilisk Crowdloan
 ---
 
-The [Basilisk crowdloan](https://basiliskfi.substack.com/p/the-snek-is-back) for the Kusama parachain auctions is now live! You can support Basilisk by participating in our crowdloan campaign and pledging some amount of KSM tokens which will be locked up for the duration of the parachain slot. In return, you will be granted **generous BSX rewards plus an HDX bonus** to cover your opportunity costs. Once the parachain slot has expired, you will receive your KSM tokens back in full. The same applies to the unlikely scenario that Basilisk does not manage to win a parachain slot within the crowdloan campaign deadline stated hereunder.
+The Basilisk crowdloan is now closed after a successful bid for a parachain slot in auction #8. On this page you will find a summary of the most important stats of the past crowdloan, as well as information on the rewards mechanism.
 
-You can participate directly by visiting our [crowdloan page](https://loan.bsx.fi). You can also check out our [step-by-step crowdloan guide](/crowdloan_guide) which will guide you through the process. Alternatively, you can participate in the Basilisk crowdloan using [Fearless Wallet](https://fearlesswallet.io/#) or [Kraken](https://www.kraken.com/learn/parachain-auctions).
+## Crowdloan Stats {#crowdloan-stats}
 
-In this post you will find the general details of the Basilisk crowdloan as well as more detailed information on how the rewards mechanism works. If you are a newcomer who is interested in learning more about the project, you can check out some of the materian under `Learn` which will help you understand [parachains](/parachains), [parachain auctions](/parachain_auctions) and [crowdloans](/crowdloans).
-
-## Crowdloan Details {#crowdloan-details}
-
-* Visit: https://loan.bsx.fi/
-* Start: **31 August 2021**
-* Parachain slot duration: **48 weeks**
-* Target parachain slot: **#6 - #10**
 * Crowdloan cap: **222,222 KSM**
-* Total BSX rewards: **15,000,000,000 BSX (15% of total supply)**
-* HDX rewards: **56,873,469 HDX (max)**
-* Vesting period: BSX rewards and HDX bonuses are distributed linearly. The distribution will start once the Basilisk LBP event has been concluded (~2 weeks after the parachain slot is won) and will continue until 1 week before the parachain slot expires.
-* Crowdloan campaign deadline: 09 October 2021
+* Crowdloan contributions: **222,221.915 KSM**
+* Contributions: **18,560**
+* Unique contributors: **11,891**
+* Winning auction: **#8**
+* Parachain slot start: **22 September 2021**
+* Parachain slot end: **05 August 2022**
 
 ## Rewards Mechanism {#rewards-mechanism}
 
 All community supporters are rewarded for participating in the crowdloan after Basilisk has secured a parachain slot. The available rewards consist of BSX and HDX tokens which are distributed at a different rate depending on the state of the crowdloan at the time of the contribution. The rewards mechanism has been designed with the best interest of the Basilisk stakeholders in mind. The aim is to not overpay for the parachain slot, thereby minimizing the opportunity costs for backers and maximizing the potential future upside. Below, you will find the BSX and HDX rewards mechanisms explained.
 
+BSX rewards and HDX bonuses are distributed linearly. The distribution will start once the Basilisk LBP event has been concluded (~2 weeks after the parachain slot is won) and will continue until 1 week before the parachain slot expires.
 
 ### BSX Rewards {#bsx-rewards}
 The amount of BSX rewards which will be received by each participant can only be determined at the end of the crowdloan campaign after Basilisk has secured a parachain slot. The calculation of the rewards consists of two steps.
