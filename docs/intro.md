@@ -8,12 +8,6 @@ Welcome to the Basilisk Documentation page! Here you can find a collection of us
 
 Before you continue, don't forget to subscribe to the [Basilisk newsletter](https://basiliskfi.substack.com) to not miss any important updates.
 
-## Basilisk Crowdloan {#crowdloan}
-
-The Basilisk crowdloan for the Kusama parachain auctions is now live! Check out [this post](/basilisk_crowdloan) for more details, as well as [the step-by-step guide](/crowdloan_guide) on how to participate.
-
-Not feeling like you really understand concepts such as [parachains](/parachains), [parachain auctions](/parachain_auctions) or [crowdloans](/crowdloans)? Don't worry, we've got you covered! In the `Learn` section you will find some useful introductory resources which will make you feel more comfortable with these subjects.
-
 ## What is Basilisk? {#what-is-basilisk}
 
 Basilisk is a liquidity bootstrapping protocol built for Kusama. Its mission is to enable frictionless liquidity for the long tail crypto assets.

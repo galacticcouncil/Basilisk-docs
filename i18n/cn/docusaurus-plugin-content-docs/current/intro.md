@@ -8,12 +8,6 @@ slug: /
 
 在继续阅读之前，不要忘记订阅 **[Basilisk 新闻通讯](https://basiliskcn.substack.com)** ，以免错过任何重要的更新。
 
-## Basilisk 众贷 {#crowdloan}
-
-Basilisk 众贷 Kusama 平行链拍卖现已上线！查看 **[这篇文章](/basilisk_crowdloan)** 获得更多细节，以及如何参与众贷的 **[分步指导](/crowdloan_guide)** 。
-
-感觉自己对 **[平行链](/parachains)** 、**[平行链拍卖](/parachain_auctions)** 或 **[众贷](/crowdloans)** 的概念不太了解？别担心，我们会帮助您的！在我们的 `学习` 中，您会发现一些有用的介绍资料，这些资料将会帮您消除对这些概念的陌生感 。
-
 ## Basilisk 是什么？ {#what-is-basilisk}
 
 Basilisk 是 为Kusama 建立的流动性引导协议。它的使命是为长尾加密资产提供无摩擦流动性。

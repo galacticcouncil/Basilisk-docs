@@ -3,12 +3,6 @@ id: basilisk_crowdloan
 title: Basilisk 众贷
 ---
 
-Basilisk 众贷 Kusama 平行链拍卖现已上线！您可以通过参与我们的众贷活动并质押一定数量的 KSM 令牌来支持 Basilisk，这些令牌将在平行链插槽期间被锁定。 作为回报，您将获得 **丰厚的 BSX 奖励和 HDX 奖金** ，以弥补您的机会成本。 一旦平行链插槽到期，您将全额收到您的 KSM 令牌。 这同样适用于不太可能的情况，即 Basilisk 未能在下文所述的众贷活动截止日期内赢得平行链插槽。
-
-您可以通过访问我们的 **[众贷页面](https://loan.bsx.fi)** 直接参与。您还可以查看我们的 **[众贷指南](/crowdloan_guide)**，该指南将指导您一步一步完成整个过程。或者，您可以 **[通过 Kraken 参与 Basilisk 众贷](https://www.kraken.com/learn/parachain-auctions)** 。
-
-在这篇文章中，您将找到 Basilisk 众贷的一般细节以及有关奖励机制如何运作的更多详细信息。 如果您是一个有兴趣了解该项目的新人，可查看 `学习` 栏下的一些材料，以帮助您了解 **[平行链](/parachains)** 、**[平行链拍卖](/parachain_auctions)** 和 **[众贷](/crowdloans)** 。
-
 ## 众贷细节 {#crowdloan-details}
 
 * 访问： **https://loan.bsx.fi/**
