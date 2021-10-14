@@ -5,6 +5,9 @@ module.exports = {
       "basilisk_crowdloan",
       "tokenomics"
     ],
+    "How-to": [
+      "create_account"
+    ],
     Learn: [
       "parachains",
       "parachain_auctions",
