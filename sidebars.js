@@ -16,6 +16,13 @@ module.exports = {
     Build: [
       "infra_testnet"
     ],
+    Docs: [
+    {
+      type: 'link',
+      label: 'Rust Docs',
+      href: 'https://rustdocs.bsx.fi',
+    },
+  ],
     "Help with Docs": ["contributing"]
   }
 };
