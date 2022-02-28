@@ -14,15 +14,13 @@ module.exports = {
       "crowdloans"
     ],
     Build: [
-      "infra_testnet"
+      "infra_testnet",
+      {
+        type: 'link',
+        label: 'Rust Docs',
+        href: 'https://rustdocs.bsx.fi',
+      },
     ],
-    Docs: [
-    {
-      type: 'link',
-      label: 'Rust Docs',
-      href: 'https://rustdocs.bsx.fi',
-    },
-  ],
     "Help with Docs": ["contributing"]
   }
 };
