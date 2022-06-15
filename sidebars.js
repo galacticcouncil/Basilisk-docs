@@ -9,6 +9,16 @@ module.exports = {
       "create_account"
     ],
     Learn: [
+      {
+        type: "category",
+        label: "Democracy",
+        items: [
+          "democracy_intro",
+          "democracy_referenda",
+          "democracy_council",
+          "democracy_technical_committee"
+        ]
+      },
       "parachains",
       "parachain_auctions",
       "crowdloans"
