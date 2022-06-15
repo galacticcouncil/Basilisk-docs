@@ -26,7 +26,7 @@ Click on an active referendum to see its details, the voting turnout, as well as
 To cast your vote, click on `Vote` and provide the following information:
 * **Vote with account** - select the voting account.
 * **Lock balance** - this is the amount of BSX tokens you are willing to lock in support of the referendum.
-* **Vote lock** - this is the multiplier which co-determines the [weight of your vote](/democracy_referenda#referenda-votes-weighing).
+* **Vote lock** - this is the multiplier which co-determines the [weight of your vote](/learn_democracy_referenda#referenda-votes-weighing).
 
 After that, bring out your vote by clicking on *Nay* (No) or *Aye* (Yes) and sign the transaction.
 
@@ -38,7 +38,7 @@ To vote in a referendum, click on the *Vote* button next to it.
 In the popup, fill in the following information:
 
 * **Vote value** - this is the amount of BSX tokens you are willing to lock in support of the referendum.
-* **Conviction multiplier** - this is the multiplier which co-determines the [weight of your vote](/democracy_referenda#referenda-votes-weighing).
+* **Conviction multiplier** - this is the multiplier which co-determines the [weight of your vote](/learn_democracy_referenda#referenda-votes-weighing).
 
 After that, bring out your vote by clicking on *Vote Nay* (No) or *Vote Aye* (Yes) and sign the transaction.
 
