@@ -1,15 +1,15 @@
 ---
-id: democracy_intro
+id: learn_democracy_intro
 title: Introduction
 ---
 
 Basilisk is in the process of fully decentralizing its governance. All decisions which affect the protocol are adopted following a democratic process which is supported by the Substrate democracy module. The central mechanism for establishing consensus among the stakeholders is the **referendum**.
 
-This section contains a series of knowledge articles which should provide you with a better understanding of the mechanisms behind the governance of Basilisk. You will find more information on [how referenda work](/democracy_referenda), as well as on the two central groups of governance actors: the [Basilisk Council](/democracy_council) and the [Technical Committee](/democracy_technical_committee).
+This section contains a series of knowledge articles which should provide you with a better understanding of the mechanisms behind the governance of Basilisk. You will find more information on [how referenda work](/learn_democracy_referenda), as well as on the two central groups of governance actors: the [Basilisk Council](/learn_democracy_council) and the [Technical Committee](/learn_democracy_technical_committee).
 
-If you are looking for practical guidance on how to participate in the governance of Basilisk, please refer to the step-by-step guides on [participating in referenda](/participate_in_referenda) and [participating in Council elections](/participate_in_council_elections).
+If you are looking for practical guidance on how to participate in the governance of Basilisk, please refer to the step-by-step guides on [participating in referenda](/howto_democracy_referenda) and [participating in Council elections](/howto_democracy_council_elections).
 
-## Democracy P arameters
+## Democracy Parameters
 The list below contains the most important parameters which influence the governance mechanism on Basilisk. Please note that these may change over time.
 
 * Referendum launch period: **3 days**

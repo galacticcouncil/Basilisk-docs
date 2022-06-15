@@ -6,17 +6,19 @@ module.exports = {
       "tokenomics"
     ],
     "How-to": [
-      "create_account"
+      "create_account",
+      "howto_democracy_referenda",
+      "howto_democracy_council_elections",
     ],
     Learn: [
       {
         type: "category",
         label: "Democracy",
         items: [
-          "democracy_intro",
-          "democracy_referenda",
-          "democracy_council",
-          "democracy_technical_committee"
+          "learn_democracy_intro",
+          "learn_democracy_referenda",
+          "learn_democracy_council",
+          "learn_democracy_technical_committee"
         ]
       },
       "parachains",

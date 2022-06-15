@@ -1,5 +1,5 @@
 ---
-id: democracy_technical_committee
+id: learn_democracy_technical_committee
 title: Technical Committee
 ---
 

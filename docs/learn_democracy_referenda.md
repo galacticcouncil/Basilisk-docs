@@ -1,5 +1,5 @@
 ---
-id: democracy_referenda
+id: learn_democracy_referenda
 title: Referenda
 ---
 
@@ -13,7 +13,7 @@ Generally speaking, only one referendum is brought to a vote at a time. Other pe
 There are multiple ways to initiate a referendum which are described in greater detail below. The way the referendum was initiated is decisive for the applicable voting mode.
 
 ### Public Referendum {#referenda-initiate-public}
-Any holder of BSX tokens can [propose a referendum](/participate_in_referenda) by depositing the minimum required amount of BSX tokens and submitting the proposal on-chain. Other community members can [support (*second*) the proposal](/participate_in_referenda) for a referendum by locking up an equal amount of tokens. At the beginning of every voting cycle, the referendum proposal with the highest amount of *seconding* (total deposited tokens) is advanced to a vote by the community.
+Any holder of BSX tokens can [propose a referendum](/howto_democracy_referenda) by depositing the minimum required amount of BSX tokens and submitting the proposal on-chain. Other community members can [support (*second*) the proposal](/howto_democracy_referenda) for a referendum by locking up an equal amount of tokens. At the beginning of every voting cycle, the referendum proposal with the highest amount of *seconding* (total deposited tokens) is advanced to a vote by the community.
 
 The voting mode which applies to public referenda is [Positive Turnout Bias](#referenda-voting-modes).
 
@@ -28,7 +28,7 @@ The Basilisk Council has the powers to propose a referendum for a community vote
 The Technical Committee can submit emergency proposals which deal with (critical) bug fixes or the quick adoption of battle-tested functionality. Emergency proposals skip the waiting queue and enter the voting round directly. The community can vote on emergency proposals in parallel to any regular proposal which has entered the voting round. Furthermore, emergency proposals have a shorter voting period to ensure that they can be fast-tracked.
 
 ### Canceling a Referendum {#cancel}
-Once a referendum has been proposed, it cannot be revoked until it has entered the voting round. An exception to this rule is made for proposals which are deemed detrimental to the protocol (e.g. code changes introducing a bug). In this limited case, the referendum proposal can be cancelled by the [Basilisk Council](/democracy_council) (with a 60% super-majority) or the [Technical Committee](/democracy_technical_committee) (unanimously). All tokens wich were locked by supporters seconding the proposal are burned.
+Once a referendum has been proposed, it cannot be revoked until it has entered the voting round. An exception to this rule is made for proposals which are deemed detrimental to the protocol (e.g. code changes introducing a bug). In this limited case, the referendum proposal can be cancelled by the [Basilisk Council](/learn_democracy_council) (with a 60% super-majority) or the [Technical Committee](/learn_democracy_technical_committee) (unanimously). All tokens wich were locked by supporters seconding the proposal are burned.
 
 ## Voting in a Referendum {#referenda-vote}
 Basilisk referenda have a launch period of 3 days. At the beginning of every new period, the proposal with the highest amount of seconding is taken from the waiting queue and put into a voting round. Every voting round has a duration of 3 days. During this period, community members can vote on the referendum using a weighted, stake-base mechanism. They do so by locking up a certain amount of BSX tokens for a given timeframe.
