@@ -3,7 +3,7 @@ id: crowdloans
 title: Crowdloans
 ---
 
-Los crowdloans ayudan a los candidatos de [parachain](/parachains) a recaudar fondos suficientes para ganar un slot en las [parachain auctions](/parachain_auctions). Este artículo proporciona una comprensión general de cómo funcionan los crowdloans.  Para obtener información específica sobre nuestro crowdloan,  diríjase a la [pagina Basilisk crowdloan](/basilisk_crowdloan).
+Los crowdloans ayudan a los candidatos de [parachain](/parachains) a recaudar fondos suficientes para ganar un slot en las [parachain auctions](/parachain_auctions). Este artículo proporciona una comprensión general de cómo funcionan los crowdloans.
 
 
 ## ¿Cómo funciona un Crowdloan? {#how}
@@ -16,5 +16,3 @@ Los patrocinadores de Crowdloan apoyan al candidato de parachain de su elección
 * El candidato no gana un slot parachain: Una vez que se ha alcanzado el objetivo impuesto o ha expirado la campaña crowdloan.
 
 Si bien los patrocinadores del crowdloan reciben la devolución total de sus fondos una vez que se ha activado el evento de desbloqueo, la participación en un crowdloan, aún conlleva los llamados **costos de oportunidad**. Estos reflejan los beneficios que se perdieron al bloquear los tokens KSM durante un período determinado en lugar de invertirlos de otra manera. Por ejemplo, en lugar de bloquear los tokens KSM durante 1 año, los usuarios podrían decidir hacer stake de sus KSM, lo que les brindaría recompensas del 10-15%. En este ejemplo, las recompensas del 10 al 15% representan los costos de oportunidad de participar en un Crowdloan
-
-En Basilisk, hemos hecho todo lo posible para asegurarnos de que nuestros patrocinadores no tengan que pensar demasiado en los costos de oportunidad: ¡Eche un vistazo al generoso esquema de recompensas del [Basilisk crowdloan](/basilisk_crowdloan)!

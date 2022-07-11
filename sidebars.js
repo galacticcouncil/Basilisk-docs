@@ -2,8 +2,6 @@ module.exports = {
   sidebar: {
     General: [
       "intro",
-      "basilisk_crowdloan",
-      "tokenomics"
     ],
     "How-to": [
       "create_account",
@@ -33,6 +31,7 @@ module.exports = {
       },
       "infra_testnet",
     ],
-    "Help with Docs": ["contributing"]
+    "Help with Docs": ["contributing"],
+    "Archive": ["basilisk_crowdloan_1"]
   }
 };
