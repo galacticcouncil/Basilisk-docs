@@ -29,5 +29,3 @@ Como se ilustra en la imagen a continuación, las candle auctions consisten en u
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <img alt="create-account" src={useBaseUrl('/img/parachain-auctions/auction-mechanism.jpg')}  />
 </div>
-
-La razón fundamental detrás de este mecanismo de subasta es evitar los sniping auction mientras se promueve un descubrimiento de precios más preciso. Para los patrocinadores del crowdloan, hay una implicación importante: Apoyar el [Basilisk crowdloan](/basilisk_crowdloan) bloqueando su KSM antes que tarde. De esta manera, se asegura de que su contribución se cuente para la oferta ganadora de Basilisk.

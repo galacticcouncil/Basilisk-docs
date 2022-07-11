@@ -29,5 +29,3 @@ As illustrated by the image below, the candle auctions consist of a starting per
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <img alt="create-account" src={useBaseUrl('/img/parachain-auctions/auction-mechanism.jpg')}  />
 </div>
-
-The rationale behind this auction mechanism is to prevent auction sniping while promoting a more accurate price discovery. For crowdloan backers, it has an important implication: Support the [Basilisk crowdloan](/basilisk_crowdloan) by locking your KSM early rather than late. This way, you make sure that your contribution is counted towards the winning bid of Basilisk.

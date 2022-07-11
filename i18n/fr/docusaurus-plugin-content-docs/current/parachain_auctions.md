@@ -29,5 +29,3 @@ Comme illustré dans l’image ci-dessous, les enchères à la bougie se compose
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <img alt="create-account" src={useBaseUrl('/img/parachain-auctions/auction-mechanism.jpg')}  />
 </div>
-
-La justification derrière cette mécanique d’enchère est d’empêcher un «auction sniping» (de renchérir dans les dernières secondes de l’enchère) tout en favorisant une découverte de prix plus précise. Pour les soutiens du crowdloan (prêt participatif), cela a une implication importante: Soutenir le prêt [participatif de Basilisk](/basilisk_crowdloan) en vérouillant vos KSM le plus tôt possible. De cette façon, vous vous assurez que votre contribution est compté pour l’enchère gagnante de Basilisk.
