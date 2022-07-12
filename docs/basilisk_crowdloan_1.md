@@ -1,6 +1,6 @@
 ---
-id: basilisk_crowdloan
-title: Basilisk Crowdloan
+id: basilisk_crowdloan_1
+title: First Basilisk Crowdloan
 ---
 
 The Basilisk crowdloan is now closed after a successful bid for a parachain slot in auction #8. On this page you will find a summary of the most important stats of the past crowdloan, as well as information on the rewards mechanism.

@@ -3,7 +3,7 @@ id: crowdloans
 title: Crowdloans
 ---
 
-Crowdloans help [parachain](/parachains) candidates raise sufficient funds for winning a slot in the [parachain auctions](/parachain_auctions). This article provides a general understanding of how crowdloans work. For specific information on our running crowdloan campaign, please head to the [Basilisk crowdloan page](/basilisk_crowdloan).
+Crowdloans help [parachain](/parachains) candidates raise sufficient funds for winning a slot in the [parachain auctions](/parachain_auctions). This article provides a general understanding of how crowdloans work.
 
 
 ## How does a Crowdloan Work? {#how}
@@ -16,5 +16,3 @@ Crowdloan backers support the parachain candidate of their choice by locking a c
 * Candidate does not win a parachain slot: Once the crowdloan goal has been reached or the crowdloan campaign has expired
 
 While crowdloan backers do receive back their funds in full once the unlocking event has been triggered, participating at a crowdloan still bears the so-called **opportunity costs**. These reflect the benefits that were missed by locking KSM tokens for a given period as opposed to investing them in another way. For example, instead of locking KSM tokens for 1 year, users could decide to stake their KSM which would bring them 10-15% rewards. In this example, the 10-15% rewards represent the opportunity costs of participating at a crowdloan.
-
-At Basilisk, we have made our best to make sure that our backers do not have to think too much about opportunity costs: Check out the generous rewards scheme of the [Basilisk crowdloan](/basilisk_crowdloan)!

@@ -54,7 +54,7 @@ After clicking on *Submit preimage*, you should see the following popup:
   <img src={useBaseUrl('/img/howto_democracy_referenda/polkajs-preimage.jpg')} />
 </div>
 
-Fill in the information in the fields show above. The most important parameters are:
+Fill in the information in the fields shown above. The most important parameters are:
 * Account from which the proposal is sent
 * Proposal area
 * Proposed action

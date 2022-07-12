@@ -28,5 +28,3 @@ Kusama 和 Polkadot 只能支持有限数量的平行链同时连接到它们的
 <div style={{textAlign: 'center', marginBottom: '2rem'}}>
   <img alt="create-account" src={useBaseUrl('/img/parachain-auctions/auction-mechanism.jpg')}  />
 </div>
-
-这种拍卖机制背后的基本原理是防止拍卖狙击，同时促进更准确的价格发现。对于众贷支持者来说，它有一个重要的含义：尽早锁定您的 KSM 来支持 **[Basilisk 众贷](/basilisk_crowdloan)** 。这样，可确保您的贡献被计入 Basilisk 的众贷活动。
