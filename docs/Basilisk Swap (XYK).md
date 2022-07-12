@@ -5,7 +5,7 @@ title: Basilisk Swap (XYK)
 
 # Basilisk Swap (XYK)
 
-Basilisk Swap is an AMM built for the Kusama ecosystem which enables users to trade tokens in a decentralized and permissionless manner. To achieve this, an array of so-called XYK pools can be deployed. Using these XYK pools, users can swap one token for another, or become a liquidity provider and earn rewards from the generated trading fees.
+Basilisk Swap is an [AMM](#AMM) built for the Kusama ecosystem which enables users to trade tokens in a decentralized and permissionless manner. To achieve this, an array of so-called [XYK pools](#XYK) can be deployed. Using these XYK pools, users can [swap](#swap) one token for another, or become a [liquidity provider](#LP) and earn rewards from the generated trading fees.
 
 # A short intro into AMMs
 
@@ -19,7 +19,7 @@ The limitations of Order Books become apparent against the background of their c
 
 The central authority has control over the trading and needs to be trusted by the participants. In moments of high turbulence, halting of trading or liquidity withdrawals is not an uncommon mishap. Furthermore, the process of adding new tradable assets is permissioned meaning that is dependent upon the approval by the same authority which operates the Order Book.
 
-## AMMs
+## AMMs{#AMM}
 
 Automated Market Makers (AMMs) is the answer of the DeFI industry to centrally operated Order Books. AMMs provide a decentralized, permissionless way of trading tokens without the need to subdue oneself to a central authority of control.
 
@@ -29,7 +29,7 @@ In the case of AMMs, any user can execute a Buy or Sell order on top of a given 
 
 At Basilisk, we have an implementation of the the most standard AMM model - XYK, which is used to provide standard swap functionality. In the nearest future, we will deliver our implementation of Liquidity Bootstrapping Pools (LBP) which empowers young projects by allowing them to bootstrap initial liquidity, navigate price discovery and achieve a fair token distribution.
 
-# XYK Pools: Powering the Swap Use-Case
+# XYK Pools: Powering the Swap Use-Case{XYK}
 
 XYK is the most common AMM model which is used to facilitate swaps from one asset to another. An XYK pool typically consists of a pair of tradable tokens, for example aUSD-BSX. The relationship between the two assets is expressed by the so-called “constant product” formula from which also the name of the XYK model has been derived: 
 
@@ -49,7 +49,7 @@ This pair of tokens act as automated market makers, standing ready to accept one
 
 The formula simply states that trades must not change the product (`k`) of a pair’s reserve balances (`x` and `y`). This formula has the desirable property that larger trades (relative to reserves) execute at worse rates than smaller ones.
 
-## Swapping Tokens
+## Swapping Tokens{swap}
 
 Token swaps in Basilisk are a simple way to trade one crypto asset for another.
 
@@ -57,7 +57,7 @@ For end-users, swapping is intuitive: a user picks an input token and an output 
 
 [How-to complete a trade](https://www.notion.so/How-to-complete-a-trade-390945cb24a34960abffc72df2fc01c0)
 
-## Providing Liquidity
+## Providing Liquidity{LP}
 
 Because of the decentralized manner of an AMM, anyone can become a liquidity provider (LP) for a pool by depositing an equivalent value of each underlying token in return for a pool NFT. These NFTs track pro-rata LP shares of the total reserves, and can be redeemed for the underlying assets at any time.
 
