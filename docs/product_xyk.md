@@ -3,7 +3,9 @@ id: product_xyk
 title: XYK
 ---
 
-Basilisk Swap is an [AMM](#intro) built for the Kusama ecosystem which enables users to trade tokens in a decentralized and permissionless manner. To achieve this, an array of so-called [XYK pools](#xyk) can be deployed. Using these XYK pools, users can [swap](#swap) one token for another, or become a [liquidity provider](#LP) and earn rewards from the generated trading fees.
+Basilisk XYK is an [AMM](#intro) built for the Kusama ecosystem which enables users to trade tokens in a decentralized and permissionless manner. To achieve this, an array of so-called [XYK pools](#xyk) can be deployed. Using these XYK pools, users can [trade](#trade) tokens, or become a [liquidity provider](#lp) and earn rewards from the generated trading fees.
+
+If you are looking for step-by-step guides, please checkout our guides on [trading tokens](/howto_xyk_trade) and on [providing liquidity](howto_xyk_provide_liquidity).
 
 ## A short intro into AMMs {#intro}
 
@@ -27,13 +29,11 @@ In the case of AMMs, any user can execute a Buy or Sell order on top of a given 
 
 At Basilisk, we have an implementation of the the most commonly used AMM model - XYK, which provides swap functionality. In the nearest future, we will deliver our implementation of Liquidity Bootstrapping Pools (LBP) which empowers young projects by allowing them to bootstrap initial liquidity, navigate price discovery and achieve a fair token distribution.
 
-## Swap: Powered by XYK Pools {#xyk}
+## Mechanics of XYK {#xyk}
 
 XYK is the most common AMM model which is used to facilitate swaps from one asset to another. An XYK pool typically consists of a pair of tradable tokens, `X` and `Y`. The relationship between the two assets is expressed by the so-called “constant product” formula, which is also where the name "XYK" comes from:
 
 `x * y = k`
-
-### Mechanics of an XYK swap
 
 A practical example would be helpful to understand the XYK mechanics. Imagine that a new pool is launched holding `100 tokens of X` and `100 tokens of Y`. In this example, the constant product would be `k = 10000`.
 
@@ -43,23 +43,13 @@ Now imagine that Bob wants to perform a trade to obtain `1 token of X` by deposi
 
 In other words, Bob can withdraw `1 token of X` under the condition that he deposits enough tokens to bring the amount of `Y = 101.01`. This means that Bob needs to cover the difference between the old state (Y = 100) and the new state (Y = 101.01), resulting in `1.01 tokens of Y`. This is the price of the swap.
 
-### Swapping Tokens {#swap}
+## Providing Liquidity {#lp}
 
-Token swaps in Basilisk are a simple way to trade one crypto asset for another.
-
-For end-users, swapping is intuitive: a user picks an input token and an output token. They specify an input amount, and the protocol calculates how much of the output token they’ll receive based on the constant product formula mentioned above.
-
-[How-to complete a trade](https://www.notion.so/How-to-complete-a-trade-390945cb24a34960abffc72df2fc01c0)
-
-### Providing Liquidity {#lp}
-
-Because of the decentralized manner of an AMM, anyone can become a liquidity provider (LP) for a pool by depositing an equivalent value of each underlying token in return for a pool NFT. These NFTs track pro-rata LP shares of the total reserves, and can be redeemed for the underlying assets at any time.
+Because of the decentralized manner of an AMM, anyone can become a liquidity provider (LP) for a pool by depositing an equivalent value of each underlying token in return for an LP share.
 
 LPs are rewarded with fees for providing this liquidity based on the trading activity experienced by this individual liquidity pool that they have selected to LP for.
 
-[How-to add liquidity](https://www.notion.so/How-to-add-liquidity-c68e15854e1645c397ea066eed2d1de7)
-
-#### Impermanent Loss (IL)
+### Impermanent Loss (IL)
 
 A risk faced by LPs is called Impermanent loss (or divergence loss).
 
