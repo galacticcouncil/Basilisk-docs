@@ -1,6 +1,6 @@
 ---
-id: intro
-title: Introduction to Basilisk
+id: product_intro
+title: Intro
 slug: /
 ---
 
