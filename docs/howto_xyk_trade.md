@@ -13,13 +13,11 @@ This page provides a **step-by-step guide** which will **help you execute your f
 
 
 ### Step 0: Bridge Tokens {#0-bridge}
+Before you can buy BSX with aUSD or KSM, you will first need to **bridge these non-native assets** into the Basilisk chain. For this purpose, you can use the [Karura Bridge](https://apps.karura.network/bridge).
 
-Before you can buy BSX with aUSD or KSM, you will first need to bridge these non-native assets into the Basilisk chain. For this purpose, you can use one of the following bridges:
+The bridge can also be used to transfer BSX, aUSD or KSM out of the Basilisk chain and into Karura or Kusama.
 
-- [Karura Bridge](https://apps.karura.network/bridge) (currently only for aUSD)
-- Basilisk XCM Bridge (for both aUSD and KSM).
-
-These bridges can also be used to bridge BSX, aUSD or KSM out of the Basilisk, chain into Karura or Kusama.
+For a step-by-step guidance on transfering tokens between Kusama chains, please visit our [bridging quide](/howto_bridge).
 
 ### Step 1: Navigate to Basilisk XYK Trade Page {#1-navigate}
 

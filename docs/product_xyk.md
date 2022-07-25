@@ -3,7 +3,7 @@ id: product_xyk
 title: XYK
 ---
 
-Basilisk XYK is an [AMM](#intro) built for the Kusama ecosystem which enables users to trade tokens in a decentralized and permissionless manner. To achieve this, an array of so-called [XYK pools](#xyk) can be deployed. Using these XYK pools, users can [trade](#trade) tokens, or become a [liquidity provider](#lp) and earn rewards from the generated trading fees.
+Basilisk XYK is an [AMM](#intro) built for the Kusama ecosystem which enables users to trade tokens in a decentralized and permissionless manner. To achieve this, an array of so-called [XYK pools](#xyk) can be deployed. Using these XYK pools, users can trade tokens, or become a [liquidity provider](#lp) and earn rewards from the generated trading fees.
 
 If you are looking for step-by-step guides, please checkout our guides on [trading tokens](/howto_xyk_trade) and on [providing liquidity](howto_xyk_provide_liquidity).
 
@@ -45,7 +45,7 @@ In other words, Bob can withdraw `1 token of X` under the condition that he depo
 
 ## Providing Liquidity {#lp}
 
-Because of the decentralized manner of an AMM, anyone can become a liquidity provider (LP) for a pool by depositing an equivalent value of each underlying token in return for an LP share.
+Thanks to the decentralized manner of an AMM, anyone can become a liquidity provider (LP) for a pool by depositing an equivalent value of each underlying token in return for an LP share.
 
 LPs are rewarded with fees for providing this liquidity based on the trading activity experienced by this individual liquidity pool that they have selected to LP for.
 

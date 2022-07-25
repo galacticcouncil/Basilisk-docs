@@ -17,27 +17,24 @@ Before deciding to become a liquidity provider, we encourage you to visit our XY
   <img src={useBaseUrl('/img/howto_xyk/lp-add-screen.jpg')} />
 </div>
 
-### Step 0: Bridge Tokens
+### Step 0: Bridge Tokens {#add-0-bridge}
+Before you can provide liquidity for a pool with BSX and aUSD or KSM, you will first need to **bridge these non-native assets** into the Basilisk chain. For this purpose, you can use the [Karura Bridge](https://apps.karura.network/bridge).
 
-Before you can provide liquidity for a pool with BSX and aUSD or KSM, you will first need to bridge these non-native assets into the Basilisk chain. For this purpose, you can use one of the following bridges:
+The bridge can also be used to transfer BSX, aUSD or KSM out of the Basilisk chain and into Karura or Kusama.
 
-- [Karura Bridge](https://apps.karura.network/bridge) (currently only for aUSD)
-- Basilisk XCM Bridge (for both aUSD and KSM).
+For a step-by-step guidance on transfering tokens between Kusama chains, please visit our [bridging quide](/howto_bridge).
 
-These bridges can also be used to bridge BSX, aUSD or KSM out of the Basilisk, chain into Karura or Kusama.
-
-### Step 1: Navigate to Basilisk Pools Page
+### Step 1: Navigate to Basilisk Pools Page {#add-1-navigate}
 
 [https://bsx.play.hydration.cloud/#/pools](https://bsx.play.hydration.cloud/#/pools)
 
 Make sure that `Add` is selected as an action.
 
-### Step 2: Connect to Your Account
+### Step 2: Connect to Your Account {#add-2-connect}
 
 Connect your wallet to Basilisk by clicking **`Connect Account` (1 in image above)** and then proceed to click on **`Pools`** **(2)**.
 
-### Step 3: Select Tokens and Add Liquidity
-
+### Step 3: Select Tokens and Add Liquidity {#add-3-add-liquidity}
 Select the token pair **(3)** and amount of liquidity you would like to contribute **(4)**. Then, click **`Add Liquidity` (5)** and sign the transaction using the wallet app.
 
 Please note that you must hold both tokens in the pair to provide liquidity. If you don't have both tokens, you can purchase the other token on Basilisk Swap.
@@ -51,18 +48,16 @@ Please note that you must hold both tokens in the pair to provide liquidity. If 
 </div>
 
 
-### Step 1: Navigate to Basilisk Pools Page
+### Step 1: Navigate to Basilisk Pools Page {#withdraw-1-navigate}
 
 [https://bsx.play.hydration.cloud/#/pools](https://bsx.play.hydration.cloud/#/pools)
 
 After visiting the page, click on `Remove` **(3 in image above).**
 
-### Step 2: Connect to Your Account
-
+### Step 2: Connect to Your Account {#withdraw-2-navigate}
 Connect your wallet to Basilisk by clicking `Connect Account` **(1)** and then proceed to click on **`Pools`** **(2)**
 
-### Step 3: Select Tokens and Withdraw Liquidity
-
+### Step 3: Select Tokens and Withdraw Liquidity {#withdraw-1-withdraw-liquidity}
 Select the token pair you would like to remove liquidity from **(4).** After that, enter the amount of LP share tokens you are withdrawing **(5)**.
 
 Click `Remove Liquidity` **(6)** and sign the transaction using your wallet app.
