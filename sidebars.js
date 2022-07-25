@@ -1,9 +1,19 @@
 module.exports = {
   sidebar: {
-    General: [
-      "intro",
+    Basilisk: [
+      "product_intro",
+      "product_xyk"
     ],
     "How-to": [
+      {
+        type: "category",
+        label: "XYK",
+        items: [
+          "howto_xyk_trade",
+          "howto_xyk_provide_liquidity"
+        ]
+      },
+      "howto_bridge",
       "create_account",
       "howto_democracy_referenda",
       "howto_democracy_council_elections",
