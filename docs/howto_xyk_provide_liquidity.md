@@ -28,16 +28,16 @@ For a step-by-step guidance on transfering tokens between Kusama chains, please 
 
 [https://bsx.play.hydration.cloud/#/pools](https://bsx.play.hydration.cloud/#/pools)
 
-Make sure that `Add` is selected as an action.
-
 ### Step 2: Connect to Your Account {#add-2-connect}
 
-Connect your wallet to Basilisk by clicking **`Connect Account` (1 in image above)** and then proceed to click on **`Pools`** **(2)**.
+Connect your wallet to Basilisk by clicking **`Connect Account` (1 in image above)**.
 
 ### Step 3: Select Tokens and Add Liquidity {#add-3-add-liquidity}
-Select the token pair **(3)** and amount of liquidity you would like to contribute **(4)**. Then, click **`Add Liquidity` (5)** and sign the transaction using the wallet app.
+Make sure that `Add` is selected in the toggle.
 
-Please note that you must hold both tokens in the pair to provide liquidity. If you don't have both tokens, you can purchase the other token on Basilisk Swap.
+Select the token pair **(2)** and amount of liquidity you would like to contribute **(3)**. Then, click **`Add Liquidity` (4)** and sign the transaction using the wallet app.
+
+Please note that you must hold both tokens in the pair to provide liquidity. If you don't have both tokens, you can purchase the other token on Basilisk XYK.
 
 ---
 
@@ -52,12 +52,12 @@ Please note that you must hold both tokens in the pair to provide liquidity. If 
 
 [https://bsx.play.hydration.cloud/#/pools](https://bsx.play.hydration.cloud/#/pools)
 
-After visiting the page, click on `Remove` **(3 in image above).**
-
 ### Step 2: Connect to Your Account {#withdraw-2-navigate}
-Connect your wallet to Basilisk by clicking `Connect Account` **(1)** and then proceed to click on **`Pools`** **(2)**
+Connect your wallet to Basilisk by clicking `Connect Account` **(1 in image above)**
 
 ### Step 3: Select Tokens and Withdraw Liquidity {#withdraw-1-withdraw-liquidity}
-Select the token pair you would like to remove liquidity from **(4).** After that, enter the amount of LP share tokens you are withdrawing **(5)**.
+After connecting your wallet, toggle to `Remove` **(2).**
 
-Click `Remove Liquidity` **(6)** and sign the transaction using your wallet app.
+Select the token pair you would like to remove liquidity from **(3).** After that, enter the amount of LP share tokens you are withdrawing **(4)**.
+
+Click `Remove Liquidity` **(5)** and sign the transaction using your wallet app.
