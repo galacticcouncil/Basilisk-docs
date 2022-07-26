@@ -30,7 +30,7 @@ If you still do not have a BSX account, please [follow this guide](https://docs.
 
 ### Step 3: Bridge Tokens
 
-* Select the `Origin Chain` you want to bridge tokens from, as well as the `Destination Chain` which will be receiving the tokens.
+* Select the `Origin Chain` **(2)** you want to bridge tokens from, as well as the `Destination Chain` **(2)** which will be receiving the tokens.
 * Select the token you would like to bridge **(3)**, and enter the amount.
 * Click `Transfer` **(4)** and sign the transaction using your Kusama wallet app.
 

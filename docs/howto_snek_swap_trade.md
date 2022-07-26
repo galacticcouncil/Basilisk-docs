@@ -1,11 +1,13 @@
 ---
-id: howto_xyk_trade
+id: howto_snek_swap_trade
 title: Trade
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This page provides a **step-by-step guide** which will **help you execute your first trades** of tokens using Basilisk XYK.
+This page provides a **step-by-step guide** which will **help you execute your first trades** of tokens using Snek Swap.
+
+Before trading, we encourage you to visit our [Snek Swap](/product_snek_swap) product page and to **get yourself familiar** with the features and caveats of XYK pools.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/img/howto_xyk/trade-screen.jpg')} />
@@ -17,11 +19,11 @@ Before you can buy BSX with aUSD or KSM, you will first need to **bridge these n
 
 The bridge can also be used to transfer BSX, aUSD or KSM out of the Basilisk chain and into Karura or Kusama.
 
-For a step-by-step guidance on transfering tokens between Kusama chains, please visit our [bridging quide](/howto_bridge).
+For a step-by-step guidance on transfering tokens between Kusama chains, please visit our [bridging guide](/howto_bridge).
 
-### Step 1: Navigate to Basilisk XYK Trade Page {#1-navigate}
+### Step 1: Navigate to the Snek Swap Page {#1-navigate}
 
-[https://bsx.play.hydration.cloud/#/trade](https://bsx.play.hydration.cloud/#/trade)
+[https://app.basilisk.cloud/#/trade](https://app.basilisk.cloud/#/trade)
 
 ### Step 2: Connect to Your Account {#2-connect}
 
@@ -31,7 +33,7 @@ If you still do not have a BSX account, please [follow this guide](https://docs.
 
 ### Step 3: Execute a Trade {#3-trade}
 
-The Basilisk Trade UI allows you to intuitively execute a trade:
+The Snek Swap UI allows you to intuitively execute a trade:
 
 - Select the pair of tokens you intend to trade **(2)**.
 - Enter the amount of tokens for the trade **(3)**.
@@ -45,4 +47,4 @@ Thanksss for trading with Snek!
 
 ---
 
-Next up, you can learn [how to become a liquidity provider](/howto_xyk_provide_liquidity) and earn rewards from the fees generated from trading in your XYK pool of choice.
+Next up, you can learn [how to become a liquidity provider](/howto_snek_swap_provide_liquidity) and earn rewards from the fees generated from trading in your Snek Swap pool of choice.
