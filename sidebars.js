@@ -2,15 +2,15 @@ module.exports = {
   sidebar: {
     Basilisk: [
       "product_intro",
-      "product_xyk"
+      "product_snek_swap"
     ],
     "How-to": [
       {
         type: "category",
-        label: "XYK",
+        label: "Snek Swap",
         items: [
-          "howto_xyk_trade",
-          "howto_xyk_provide_liquidity"
+          "howto_snek_swap_trade",
+          "howto_snek_swap_provide_liquidity"
         ]
       },
       "howto_bridge",
