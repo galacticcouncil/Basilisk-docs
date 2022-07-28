@@ -43,6 +43,23 @@ Now imagine that Bob wants to perform a trade to obtain `1 token of X` by deposi
 
 In other words, Bob can withdraw `1 token of X` under the condition that he deposits enough tokens to bring the amount of `Y = 101.01`. This means that Bob needs to cover the difference between the old state (Y = 100) and the new state (Y = 101.01), resulting in `1.01 tokens of Y`. This is the price of the swap.
 
+### Slippage
+
+When a trade is excuted, the user may experience what is known as Slippage. This is the difference between the expected price of your trade and the price when the trade is actually executed. 
+
+Slippage is determined by the amount of liquidity available within each liquidity pool. If there is a low amount of liquidity provided to a certain pair of assets, then the slippage percentage when transacting will be higher. 
+
+Using the example above, we can see below that as the amount traded becomes larger, the higher the slippage.
+| Approx. Token Y In | Token X Out | Approx. Price (Token X per Token Y) |
+| --- | --- | --- |
+| 1 | 1 | 1.01 |
+| 5 | 4.76 | 1.05 |
+| 10 | 9.09 | 1.10 |
+| 20 | 16.67 | 1.20 |
+| 50 | 33.33 | 1.50 |
+
+Note that in Snek Swap, you can set the amount of Slippage you are willing to incur for any trade. This helps the user avoid any unfavorable trades out of their expectations.
+
 ## Providing Liquidity {#lp}
 
 Thanks to the decentralized manner of an AMM, anyone can become a liquidity provider (LP) for a pool by depositing an equivalent value of each underlying token in return for an LP share.
