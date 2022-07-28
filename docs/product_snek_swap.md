@@ -43,6 +43,13 @@ Now imagine that Bob wants to perform a trade to obtain `1 token of X` by deposi
 
 In other words, Bob can withdraw `1 token of X` under the condition that he deposits enough tokens to bring the amount of `Y = 101.01`. This means that Bob needs to cover the difference between the old state (Y = 100) and the new state (Y = 101.01), resulting in `1.01 tokens of Y`. This is the price of the swap.
 
+### Slippage
+
+When a trade is excuted, the user may experience what is known as Slippage. This is the difference between the expected price of your trade and the price when the trade is actually executed. 
+
+Slippage is determined by the amount of liquidity available within each liquidity pool. If there is a low amount of liquidity provided to a certain pair of assets, then the slippage percentage when transacting will be higher. 
+
+
 ## Providing Liquidity {#lp}
 
 Thanks to the decentralized manner of an AMM, anyone can become a liquidity provider (LP) for a pool by depositing an equivalent value of each underlying token in return for an LP share.
