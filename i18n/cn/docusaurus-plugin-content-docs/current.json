@@ -11,9 +11,9 @@
     "message": "指南",
     "description": "The label for category How-to in sidebar sidebar"
   },
-  "sidebar.sidebar.category.Connect to a Node": {
-    "message": "连接到节点",
-    "description": "The label for category Connect to a Node in sidebar sidebar"
+  "sidebar.sidebar.category.Democracy": {
+    "message": "民主权利",
+    "description": "The label for category Democracy in sidebar sidebar"
   },
   "sidebar.sidebar.category.Learn": {
     "message": "学习",
@@ -27,9 +27,9 @@
     "message": "构建",
     "description": "The label for category Build in sidebar sidebar"
   },
-  "sidebar.sidebar.category.Contribute": {
-    "message": "投稿",
-    "description": "The label for category Contribute in sidebar sidebar"
+  "sidebar.sidebar.category.Archive": {
+    "message": "存档",
+    "description": "The label for category Archive in sidebar sidebar"
   },
   "sidebar.sidebar.category.Help with Docs": {
     "message": "帮助文档",
