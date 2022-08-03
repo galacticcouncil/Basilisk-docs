@@ -50,13 +50,14 @@ When a trade is excuted, the user may experience what is known as Slippage. This
 Slippage is determined by the amount of liquidity available within each liquidity pool. If there is a low amount of liquidity provided to a certain pair of assets, then the slippage percentage when transacting will be higher. 
 
 Using the example above, we can see below that as the amount traded becomes larger, the higher the slippage.
-| Approx. Token Y In | Token X Out | Approx. Price (Token X per Token Y) |
-| --- | --- | --- |
-| 1 | 1 | 1.01 |
-| 5 | 4.76 | 1.05 |
-| 10 | 9.09 | 1.10 |
-| 20 | 16.67 | 1.20 |
-| 50 | 33.33 | 1.50 |
+
+| Token X (Out) | Token Y (In) | Price per token X (in Y) |
+| :---: | :---: | :---: |
+| 1 | 1.01 | 1.01 |
+| 5 | 5.26 | 1.05 |
+| 10 | 11.11 | 1.11 |
+| 20 | 25  | 1.25 |
+| 50 | 100 | 2 |
 
 Note that in Snek Swap, you can set the amount of Slippage you are willing to incur for any trade. This helps the user avoid any unfavorable trades out of their expectations.
 
