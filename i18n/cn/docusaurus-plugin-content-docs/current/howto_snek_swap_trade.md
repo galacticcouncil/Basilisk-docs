@@ -16,9 +16,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### 步骤 0: 桥接令牌 {#0-bridge}
 
-在你可以用 aUSD 或 KSM 购买 BSX 之前，您首先需要 **将这些非本土资产** 连接到 Basilisk 链。为此，您可以使用 **[Karura 桥](https://apps.karura.network/bridge)**。
+在用 aUSD 或 KSM 购买 BSX 之前，您需要首先 **将这些非本土资产** 连接到 Basilisk 链。可以使用 **[Karura 桥](https://apps.karura.network/bridge)** 实现。
 
-桥，也可以用来将 BSX、 aUSD 或 KSM 从 Basilisk 链转移到 Karura 或 Kusama。
+它也可以用来将 BSX、 aUSD 或 KSM 从 Basilisk 链转移到 Karura 或 Kusama。
 
 有关 Kusama 链间转移令牌的分步指导，请访问我们的 **[桥接指南](/howto_bridge)**。
 
