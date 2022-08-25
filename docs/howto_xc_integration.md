@@ -81,7 +81,7 @@ The following actions can be performed only from root origin via governance or t
 ##### 3) Parachain
  - accept Basilisk &#8594; Parachain channel request on the relay chain with the following Transact call, analogically to step 1
 <div style={{textAlign: 'center'}}>
-  <img src={useBaseUrl('/img/howto_xc_integration/rococo_hrmp_accept.png')} />
+  <img src={useBaseUrl('/img/howto_xc_integration/hrmp_accept.png')} />
 </div>
 
 _Encoded: 0x17012a080000_
@@ -112,7 +112,7 @@ Always test the encoded hash of the call is valid on the appropriate chain, send
 Initiates a request to open the channel to Basilisk on the relay chain. This consists of:
 - prepare encoded transact call that will be executed on the relay chain
 <div style={{textAlign: 'center'}}>
-  <img src={useBaseUrl('/img/howto_xc_integration/rococo_hrmp_init.png')} />
+  <img src={useBaseUrl('/img/howto_xc_integration/kusama_hrmp_init.png')} />
 </div>
 
 _Encoded: 0x3c002a080000e803000000900100_
@@ -136,7 +136,7 @@ The following actions can be performed only from root origin via governance or t
 ##### 3) Parachain
  - accept Basilisk &#8594; Parachain channel request on the relay chain with the following Transact call, analogically to step 1
 <div style={{textAlign: 'center'}}>
-  <img src={useBaseUrl('/img/howto_xc_integration/rococo_hrmp_accept.png')} />
+  <img src={useBaseUrl('/img/howto_xc_integration/hrmp_accept.png')} />
 </div>
 
 _Encoded: 0x3c012a080000_
