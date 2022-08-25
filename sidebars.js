@@ -17,6 +17,7 @@ module.exports = {
       "create_account",
       "howto_democracy_referenda",
       "howto_democracy_council_elections",
+      "howto_xc_integration"
     ],
     Learn: [
       {
