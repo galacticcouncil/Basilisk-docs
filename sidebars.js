@@ -16,8 +16,7 @@ module.exports = {
       "howto_bridge",
       "create_account",
       "howto_democracy_referenda",
-      "howto_democracy_council_elections",
-    ],
+      "howto_democracy_council_elections"    ],
     Learn: [
       {
         type: "category",
@@ -40,6 +39,7 @@ module.exports = {
         href: 'https://rustdocs.bsx.fi',
       },
       "infra_testnet",
+      "build_xc_integration"
     ],
     "Help with Docs": ["contributing"],
     "Archive": ["basilisk_crowdloan_1"]
