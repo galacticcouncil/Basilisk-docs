@@ -1,5 +1,5 @@
 ---
-id: howto_xc_integration
+id: build_xc_integration
 title: Cross-Chain Integration
 ---
 
