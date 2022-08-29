@@ -15,7 +15,7 @@ The Kusama ecosystem was designed with multichain interoperability support in mi
 ## Onboarding assets to Basilisk {#onboarding-assets}
 As Basilisk is a permissionless and decentralized protocol, anyone can propose an XC integration with another parachain. A common case for this would be to list tokens on Snek Swap or to raise liquidity with Snek LBP, but other use cases may also come to mind.
 
-The procedure for proposing to open an XCM channel to Basilisk consists of the following steps:
+The procedure for proposing to open a channel to Basilisk consists of the following steps:
 
 ### Step 0: Spark a discussion with the community {#discussion}
 Before deciding to open a new cross-chain channel, you should initiate a discussion with the broader Basilisk community. This step is important because it allows users to express interest in tokens which they would like to see trading on our platform, and to red-flag potentially toxic assets.
@@ -165,6 +165,6 @@ After the Basilisk referendum has been enacted, the Parachain needs to:
 Wait for one session after each acceptance for the channels to be opened.
 
 ##### 5) Test token transfers
-Before proceeding, try sending each of the registered tokens back and forth from one parachain to the other, and make sure that the deposits are successful.
+Try sending each of the registered tokens back and forth from one parachain to the other, and make sure that the deposits are successful.
 
-__Congratulations for registering your non-native tokens on Basilisk, and a warm welcome from Snek!__
+__Congratulations for registering your tokens on Basilisk, and a warm welcome from Snek!__
