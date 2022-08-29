@@ -18,7 +18,7 @@ As Basilisk is a permissionless and decentralized protocol, anyone can propose a
 The procedure for proposing to open a channel to Basilisk consists of the following steps:
 
 ### Step 0: Spark a discussion with the community {#discussion}
-Before deciding to open a new cross-chain channel, you should initiate a discussion with the broader Basilisk community. This step is important because it allows users to express interest in tokens which they would like to see trading on our platform, and to red-flag potentially toxic assets.
+Before deciding to open a new cross-chain channel, you should initiate a discussion with the broader Basilisk community. This step is important because it allows users to express interest in tokens that they would like to see trading on our platform and to red-flag potentially toxic assets.
 
 To initiate the discussion, please [open a discussion thread on Polkassembly](https://basilisk.polkassembly.io/post/create) which touches upon the following points:
 - introduction of your project
@@ -29,7 +29,7 @@ To initiate the discussion, please [open a discussion thread on Polkassembly](ht
 After creating the thread, please post a link in **#gov-discussion** on the [Basilisk Discord](https://discord.gg/FYrDPeES).
 
 ### Step 1: Gather asset registry info {#asset-registry-info}
-A chain's asset registry requires metadata about its tokens to function properly. For example, our native token BSX, would be registered as follows: 
+A chain's asset registry requires metadata about its tokens to function properly. For example, our native token BSX would be registered as follows: 
 
 |Field|Example|
 |-------------|:-----------:|
@@ -43,7 +43,7 @@ A chain's asset registry requires metadata about its tokens to function properly
 Prepare this table for all the currencies you want to register.
 
 ### Step 2: Test on Rococo testnet {#rococo}
-Before any cross-chain action can happen on the live chain, a dry-run has to be performed on the Rococo testnet first. Doing so prevents losing funds spent on failed proposals and ensures their smooth execution.
+Before any cross-chain action can happen on the live chain, a dry run has to be performed on the Rococo testnet first. Doing so prevents losing funds spent on failed proposals and ensures their smooth execution.
 
 :::important
 Both parachain [sovereign accounts](https://substrate.stackexchange.com/questions/1200/how-to-calculate-sovereignaccount-for-parachain/1210) must have enough funds on the relay chain to make a deposit for HRMP channels and to process XCM messages.
@@ -106,7 +106,7 @@ BSX on Rococo can be obtained from the [Basilisk discord faucet](https://discord
 :::
 
 ### Step 3: Integrate on Kusama network {#live}
-The process is the similar as in step 2, however we will be using Kusama as the relay chain.
+The process is similar to step 2, however, we will be using Kusama as the relay chain.
 
 :::important
 Both parachain [sovereign accounts](https://substrate.stackexchange.com/questions/1200/how-to-calculate-sovereignaccount-for-parachain/1210) must have enough funds (approx. 10.1 KSM) on the relay chain to reserve a deposit for HRMP channels and to process the XCM messages.
@@ -145,9 +145,9 @@ On the Basilisk side, the following actions need to be performed:
 - initiate a request for opening Basilisk &#8594; Parachain channel;
 - register Parachain's native asset(s) in the Basilisk asset registry.
 
-In order to do so, the actions need to pass the **governance procedure** applicable at Basilisk. For this purpose, please reach out to **#gov-discussion** on the [Basilisk Discord](https://discord.gg/FYrDPeES). Please **include references** to Step 0 (governance discussion), Step 1 (Asset Registry Info for the assets which are to be registered on Basilisk) and Step 2 (testing on Rococo).
+In order to do so, the actions need to pass the **governance procedure** applicable at Basilisk. For this purpose, please reach out to **#gov-discussion** on the [Basilisk Discord](https://discord.gg/FYrDPeES). Please **include references** to Step 0 (governance discussion), Step 1 (Asset Registry Info for the assets which are to be registered on Basilisk), and Step 2 (testing on Rococo).
 
-Your request will be handled by the Basilisk Council. If all the necessary information is provided, a Council member will launch a motion which, after undergoing a Council vote, will proceed as a public referendum. The Techical Committee at Basilisk will consider fast-tracking the referendum.
+Your request will be handled by the Basilisk Council. If all the necessary information is provided, a Council member will launch a motion which, after undergoing a Council vote, will proceed as a public referendum. The Technical Committee at Basilisk will consider fast-tracking the referendum.
 
 ##### 3) Parachain
 After the Basilisk referendum has been enacted, the Parachain needs to:
