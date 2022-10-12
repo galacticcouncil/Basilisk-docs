@@ -2,7 +2,8 @@ module.exports = {
   sidebar: {
     Basilisk: [
       "product_intro",
-      "product_snek_swap"
+      "product_snek_swap",
+      "product_snek_lbp"
     ],
     "How-to": [
       {
@@ -11,6 +12,14 @@ module.exports = {
         items: [
           "howto_snek_swap_trade",
           "howto_snek_swap_provide_liquidity"
+        ]
+      },
+      {
+        type: "category",
+        label: "Snek LBP",
+        items: [
+          "howto_snek_lbp_buy",
+          "howto_snek_lbp_mechanics"
         ]
       },
       "howto_bridge",
