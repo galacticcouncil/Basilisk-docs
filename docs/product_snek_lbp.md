@@ -28,7 +28,7 @@ No whitelists, hard caps, or listing requirements. There is no minimum or maximu
 
 ### **Capital-efficient**
 
-Kickstarting an LBP does not require big amounts of initial liquidity. Unlike a traditional XYK pool, the team is not required to put up 50% in value of the other token used to bootstrap liquidity. Instead, the LBP weights mechanism allows to reduce the amount of collatoral
+Kickstarting an LBP does not require big amounts of initial liquidity. Unlike a traditional XYK pool, the team is not required to put up 50% in value of the other token used to bootstrap liquidity. Instead, the LBP weights mechanism allows to reduce the amount of collatoral.
 
 For the projects launching a direct XYK pool, the team is required to put up 50% in value of another token (likely a stablecoin or major token like DOT or KSM). This is capital intensive for any project at the beginning. With the LBP, the team is able to reduce the amount of  collateral put up by up to 99% through programmatically magnifying the project's token.
 
@@ -42,6 +42,6 @@ There is no incentive to front-run because the price is intentionally set higher
 
 ### Unique repayment mechanism
 
-In addition to the general LBP features, our Snek LBP product also allows creators to dynamically adjust fees received from the LBP. This allows the team to determine: 1) The amount of fees collected (at start and during LBP), and 2) The location of fee accrual (single or multi-wallet). This allows team to ensure launch costs are recuperated while setting aside part of the funds to seed the XYK pool after LBP. 
+In addition to the general LBP features, our Snek LBP product also allows creators to dynamically adjust fees received from the LBP. This allows the team to determine: 1) The amount of fees collected (at start and during LBP), and 2) The location of fee accrual (which can be a different address). This allows team to ensure launch costs are recuperated while setting aside part of the funds to seed the XYK pool after LBP. 
 
 With our unique repayment mechanism, LBP creators are also able to potentially tap into the BSX treasury to borrow funds for the initial seed liquidity for their LBP. The borrowed funds would automatically first be repaid to the BSX treasury during the course of the LBP period. Once fully repaid, the team would then begin accruing the remaining fees earned.

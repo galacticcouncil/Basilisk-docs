@@ -10,7 +10,7 @@ This page provides a **step-by-step guide** which will **help you execute your f
 :::warning
 DYOR!
 
-If you have never traded in an LBP before, we stringly encourage you to read our [product description of Snek LBP](/product_snek_lbp) as well as [this article on the mechanics of an LBP](/howto_snek_lbp_mechanics).
+If you have never traded in an LBP before, we strongly encourage you to read our [product description of Snek LBP](/product_snek_lbp) as well as [this article on the mechanics of an LBP](/howto_snek_lbp_mechanics).
 :::
 
 ## Trade Screen
