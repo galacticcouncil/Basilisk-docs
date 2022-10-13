@@ -12,6 +12,10 @@
     "description": "The label for category How-to in sidebar sidebar"
   },
   "sidebar.sidebar.category.Democracy": {
+    "message": "Snek LBP",
+    "description": "The label for category Snek-lbp in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Democracy": {
     "message": "民主权利",
     "description": "The label for category Democracy in sidebar sidebar"
   },
