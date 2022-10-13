@@ -20,7 +20,7 @@ To perform XCM transfers for one of the assets listed above, you can use [Karura
 </div>
 
 ### Step 1: Navigate to the Karura Bridge Page
-[https://apps.karura.network/bridge](https://apps.karura.network/bridge)
+[https://apps.karura.network/bridge](https://apps.karura.network/bridge?fromChainName=kusama&toChainName=basilisk)
 
 ### Step 2: Connect to Your Account
 
