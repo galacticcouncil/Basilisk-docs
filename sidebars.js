@@ -3,7 +3,8 @@ module.exports = {
     Basilisk: [
       "product_intro",
       "product_snek_swap",
-      "product_snek_lbp"
+      "product_snek_lbp",
+      "spending_fw"
     ],
     "How-to": [
       {
