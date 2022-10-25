@@ -10,6 +10,14 @@ module.exports = {
     "How-to": [
       {
         type: "category",
+        label: "Wallets",
+        items: [
+          "create_account",
+          "howto_wallet_parity_signer"
+        ]
+      },
+      {
+        type: "category",
         label: "Snek Swap",
         items: [
           "howto_snek_swap_trade",
@@ -25,7 +33,6 @@ module.exports = {
         ]
       },
       "howto_bridge",
-      "create_account",
       "howto_democracy_referenda",
       "howto_democracy_council_elections"    ],
     Learn: [
