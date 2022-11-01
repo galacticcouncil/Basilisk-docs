@@ -43,13 +43,31 @@ Now imagine that Bob wants to perform a trade to obtain `1 token of X` by deposi
 
 In other words, Bob can withdraw `1 token of X` under the condition that he deposits enough tokens to bring the amount of `Y = 101.01`. This means that Bob needs to cover the difference between the old state (Y = 100) and the new state (Y = 101.01), resulting in `1.01 tokens of Y`. This is the price of the swap.
 
+### Slippage {#slippage}
+
+When a trade is executed, users may experience a common side-effect of the XYK AMM known as `slippage`. This is the difference between the expected price of a trade and the price when the trade is actually executed.
+
+Slippage is determined by the amount of liquidity available within each trading pool. If there is a low amount of liquidity provided to a certain pair of assets, then the slippage percentage when transacting with big orders will be higher.
+
+The table below demonstrates the effect of slippage on the trading price. Using the previous example of a pool containing `100 tokens of X` and `100 tokens of Y`, we can see how the price for `1 token of X` increases as the order grows.
+
+| Token X (Out) | Token Y (In) | Price per X (in Y) |
+| :---: | :---: | :---: |
+| 1 | 1.01 | 1.01 |
+| 5 | 5.26 | 1.05 |
+| 10 | 11.11 | 1.11 |
+| 20 | 25  | 1.25 |
+| 50 | 100 | 2 |
+
+Note that in Snek Swap, you can set the amount of Slippage you are willing to incur for any trade. This helps the user avoid any unfavorable trades out of their expectations.
+
 ## Providing Liquidity {#lp}
 
 Thanks to the decentralized manner of an AMM, anyone can become a liquidity provider (LP) for a pool by depositing an equivalent value of each underlying token in return for an LP share.
 
 LPs are rewarded with fees for providing this liquidity based on the trading activity experienced by this individual liquidity pool that they have selected to LP for.
 
-### Impermanent Loss (IL)
+### Impermanent Loss (IL) {#impermanent-loss}
 
 A risk faced by LPs is called Impermanent loss (or divergence loss).
 
