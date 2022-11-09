@@ -4,7 +4,8 @@ module.exports = {
       "product_intro",
       "product_snek_swap",
       "product_snek_lbp",
-      "spending_fw"
+      "spending_fw",
+      "tokenomics"
     ],
     "How-to": [
       {
