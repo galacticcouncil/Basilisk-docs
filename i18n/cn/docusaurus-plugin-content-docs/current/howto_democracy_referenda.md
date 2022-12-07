@@ -11,18 +11,18 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 公投投票 {#vote}
 
-您可以使用 **[Polkassembly](#vote-polkassembly)** 或直接从 **[Polkadot/apps](#vote-polkajs)** 在 Basilisk 公投中投票。
+您可以使用 **[Subsquare](#vote-subsquare)** 或直接从 **[Polkadot/apps](#vote-polkajs)** 在 Basilisk 公投中投票。
 
-### 使用 Polkassembly 进行投票 {#vote-polkassembly}
+### 使用 Subsquare 进行投票 {#vote-subsquare}
 
-要查看所有正在进行和过去的公投，请浏览 **[Basilisk Polkassembly 页面](https://basilisk.polkassembly.network/)**。如果您是第一次使用 Polkassembly，请单击 `Register` （注册）（右上角）并连接您的钱包。如果您已经注册，请确保您的钱包已连接，否则请通过 `Login` （登录）进行登录。
+要查看所有正在进行和过去的公投，请浏览 **[Basilisk Subsquare 页面](https://basilisk.subsquare.network/)**。如果您是第一次使用 Subsquare，请单击 `Register` （注册）（右上角）并连接您的钱包。如果您已经注册，请确保您的钱包已连接，否则请通过 `Login` （登录）进行登录。
 
-点击 **[此处](https://basilisk.polkassembly.network/referenda)**，查看所有正在进行和过去的公民投票。
+点击 **[此处](https://basilisk.subsquare.network/referenda)**，查看所有正在进行和过去的公民投票。
 
 点击一个活跃的公投，可以看到它的详细信息，投票人数，以及投票模块。
 
 <div style={{textAlign: 'center'}}>
-  <img src={useBaseUrl('/img/howto_democracy_referenda/polkassembly-vote.jpg')} />
+  <img src={useBaseUrl('/img/howto_democracy_referenda/subsquare-vote.jpg')} />
 </div>
 
 如欲投票，请点击 `Vote` （投票），并提供以下资料:
@@ -34,7 +34,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### 使用 Polkadot/apps 投票 {#vote-polkajs}
 
-您可以在 Polkadot/apps 中，通过导航 **[*Governance（治理）> Democracy（民主权利）*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc-01.basilisk.hydradx.io#/democracy)**看到所有开放投票的公投。
+您可以在 Polkadot/apps 中，通过导航 **[*Governance（治理）> Democracy（民主权利）*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.basilisk.cloud#/democracy)**看到所有开放投票的公投。
 
 要在公投中投票，点击它旁边的 `Vote`（投票）按钮。
 
@@ -51,7 +51,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### 01 提交原像 {#propose-01}
 
-提交原像，访问 Polkadot/apps 并导航到 **[*Governance（治理）> Democracy（民主权利）*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc-01.basilisk.hydradx.io#/democracy)**。
+提交原像，访问 Polkadot/apps 并导航到 **[*Governance（治理）> Democracy（民主权利）*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.basilisk.cloud#/democracy)**。
 
 点击 `Submit preimage`（提交原像）后，您应该可以看到如下弹窗：
 
@@ -70,7 +70,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### 02 提交议案 {#propose-02}
 
-如欲提交公投议案，请访问 Polkadot/apps 中的 **[*Governance（治理）> Democracy（民主权利）*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc-01.basilisk.hydradx.io#/democracy)**。
+如欲提交公投议案，请访问 Polkadot/apps 中的 **[*Governance（治理）> Democracy（民主权利）*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.basilisk.cloud#/democracy)**。
 
 点击 `Submit proposal`（提交议案）后，您会看到如下弹窗:
 
