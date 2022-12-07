@@ -10,17 +10,17 @@ This post provides a step-by-step guide on how to participate in referenda: [vot
 Before you decide to participate in democracy, we strongly encourage you to read through the [referenda knowledge article](/learn_democracy_referenda) in the Learn / Democracy section. There you will find some important details on the mechanics behind referenda.
 
 ## Vote in a Referendum {#vote}
-You can vote in Basilisk referenda either by using [Polkassembly](#vote-polkassembly) or directly from [Polkadot/apps](#vote-polkajs).
+You can vote in Basilisk referenda either by using [Subsquare](#vote-subsquare) or directly from [Polkadot/apps](#vote-polkajs).
 
-### Vote using Polkassembly {#vote-polkassembly}
-To see all active and past referenda, navigate to the [Basilisk Polkassembly page](https://basilisk.polkassembly.network/). If this is the first time you use Polkassembly, click on `Register` (top right corner) and connect your wallet. If you are already registered, make sure you that your wallet is connected, otherwise do so via `Login`.
+### Vote using Subsquare {#vote-subsquare}
+To see all active and past referenda, navigate to the [Basilisk Subsquare page](https://basilisk.subsquare.io/). If this is the first time you use Subsquare, click on `Register` (top right corner) and connect your wallet. If you are already registered, make sure you that your wallet is connected, otherwise do so via `Login`.
 
-To see all active and past referenda, click on [Referenda](https://basilisk.polkassembly.network/referenda).
+To see all active and past referenda, click on [Referenda](https://basilisk.subsquare.io/democracy/referenda).
 
 Click on an active referendum to see its details, the voting turnout, as well as the voting module.
 
 <div style={{textAlign: 'center'}}>
-  <img src={useBaseUrl('/img/howto_democracy_referenda/polkassembly-vote.jpg')} />
+  <img src={useBaseUrl('/img/howto_democracy_referenda/subsquare-vote.jpg')} />
 </div>
 
 To cast your vote, click on `Vote` and provide the following information:
@@ -31,7 +31,7 @@ To cast your vote, click on `Vote` and provide the following information:
 After that, bring out your vote by clicking on *Nay* (No) or *Aye* (Yes) and sign the transaction.
 
 ### Vote using Polkadot/apps {#vote-polkajs}
-You can see all referenda which are open for voting by navigating to [*Governance > Democracy*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc-01.basilisk.hydradx.io#/democracy) in Polkadot/apps.
+You can see all referenda which are open for voting by navigating to [*Governance > Democracy*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.basilisk.cloud#/democracy) in Polkadot/apps.
 
 To vote in a referendum, click on the *Vote* button next to it.
 
@@ -46,7 +46,7 @@ After that, bring out your vote by clicking on *Vote Nay* (No) or *Vote Aye* (Ye
 You can propose a new referendum via Polkadot/apps. The process consists of two steps - [submitting a preimage](#propose-01), and [submitting the proposal on-chain](#propose-02).
 
 ### 01 Submit preimage {#propose-01}
-To submit the preimage, visit Polkadot/apps and navigate to [*Governance > Democracy*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc-01.basilisk.hydradx.io#/democracy).
+To submit the preimage, visit Polkadot/apps and navigate to [*Governance > Democracy*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.basilisk.cloud#/democracy).
 
 After clicking on *Submit preimage*, you should see the following popup:
 
@@ -64,7 +64,7 @@ In the example above, the proposal area is *balances*, and the action is *forceT
 Before submitting the preimage and signing the transaction, please make sure to copy the preimage hash. You will need it for the next step.
 
 ### 02 Submit proposal {#propose-02}
-To submit the referendum proposal, visit [*Governance > Democracy*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc-01.basilisk.hydradx.io#/democracy) in Polkadot/apps.
+To submit the referendum proposal, visit [*Governance > Democracy*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.basilisk.cloud#/democracy) in Polkadot/apps.
 
 After clicking on *Submit proposal*, you should see the following popup:
 

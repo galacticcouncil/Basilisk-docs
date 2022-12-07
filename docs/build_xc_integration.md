@@ -20,7 +20,7 @@ The procedure for proposing to open a channel to Basilisk consists of the follow
 ### Step 0: Spark a discussion with the community {#discussion}
 Before deciding to open a new cross-chain channel, you should initiate a discussion with the broader Basilisk community. This step is important because it allows users to express interest in tokens that they would like to see trading on our platform and to red-flag potentially toxic assets.
 
-To initiate the discussion, please [open a discussion thread on Polkassembly](https://basilisk.polkassembly.io/post/create) which touches upon the following points:
+To initiate the discussion, please [open a discussion thread on Subsquare](https://basilisk.subsquare.io/post/create) which touches upon the following points:
 - introduction of your project
 - how it plans to leverage the functionality offered by Basilisk
 - tokenomics
