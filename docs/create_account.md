@@ -1,6 +1,6 @@
 ---
 id: create_account
-title: Create a new BSX Account
+title: Polkadot.js/apps
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
