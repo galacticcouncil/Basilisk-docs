@@ -11,17 +11,25 @@
     "message": "指南",
     "description": "The label for category How-to in sidebar sidebar"
   },
+  "sidebar.sidebar.category.Wallets": {
+    "message": "钱包",
+    "description": "The label for category Wallets in sidebar"
+  },
+  "sidebar.sidebar.category.Snek Swap": {
+    "message": "Snek Swap",
+    "description": "The label for category Snek Swap in sidebar"
+  },
   "sidebar.sidebar.category.Snek LBP": {
     "message": "Snek LBP",
-    "description": "The label for category Snek-lbp in sidebar sidebar"
-  },
-  "sidebar.sidebar.category.Democracy": {
-    "message": "民主权利",
-    "description": "The label for category Democracy in sidebar sidebar"
+    "description": "The label for category Snek LBP in sidebar"
   },
   "sidebar.sidebar.category.Learn": {
     "message": "学习",
     "description": "The label for category Learn in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Democracy": {
+    "message": "民主权利",
+    "description": "The label for category Democracy in sidebar"
   },
   "sidebar.sidebar.category.Maintain": {
     "message": "运营",
@@ -37,6 +45,6 @@
   },
   "sidebar.sidebar.category.Help with Docs": {
     "message": "帮助文档",
-    "description": "The label for category Help with Docs in sidebar"
+    "description": "The label for category Help with Docs in sidebar sidebar"
   }
 }
