@@ -44,16 +44,17 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 按以下步骤创建新账户。
 
 #### 01 添加种子短语
-打开 Parity Signer 应用程序，选择 `New seed`.
+打开 Parity Signer 应用程序，选择 `New seed`。
+
 <div style={{textAlign: 'center'}}>
-  <img alt="metadata" src={useBaseUrl('/howto_wallets/parity_signer_seed.jpg')} width="350px" />
+  <img alt="metadata" src={useBaseUrl('/img/howto_wallets/parity_signer_seed.jpg')} width="350px" />
 </div>
 
 #### 02 备份您的恢复短语
 应用程序将显示您的种子短语。把它写下来，放在安全的地方。
 
 <div style={{textAlign: 'center'}}>
-  <img alt="metadata" src={useBaseUrl('/howto_wallets/parity_signer_seed_2.jpg')} width="350px" />
+  <img alt="metadata" src={useBaseUrl('/img/howto_wallets/parity_signer_seed_2.jpg')} width="350px" />
 </div>
 
 完成这些之后，您就可以开始了！您可以在 Parity Signer 中使用您的手机密码或身份验证方法（指纹/面部识别）。
@@ -77,7 +78,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 要添加您的帐户，请打开 polkadot.js 浏览器扩展程序，单击 `+` 并选择 `Attach external QR-signer account`。
 
 <div style={{textAlign: 'center'}}>
-  <img alt="metadata" src={useBaseUrl('/howto_wallets/parity_signer_polkajs_attach.jpg')} width="350px" />
+  <img alt="metadata" src={useBaseUrl('/img/howto_wallets/parity_signer_polkajs_attach.jpg')} width="350px" />
 </div>
 
 #### 在 Parity Signer 上
@@ -110,13 +111,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 当使用 Parity Signer 签署交易时，polkadot.js 应用程序将显示二维码。
 
 <div style={{textAlign: 'center'}}>
-  <img alt="metadata" src={useBaseUrl('/howto_wallets/parity_signer_sign_1.jpg')} width="350px" />
+  <img alt="metadata" src={useBaseUrl('/img/howto_wallets/parity_signer_sign_1.jpg')} width="350px" />
 </div>
 
 使用 Parity Signer 扫描二维码，然后点击 `Unlock key and sign` （解锁键并签署)。
 
 <div style={{textAlign: 'center'}}>
-  <img alt="metadata" src={useBaseUrl('/howto_wallets/parity_signer_sign_2.jpg')} width="350px" />
+  <img alt="metadata" src={useBaseUrl('/img/howto_wallets/parity_signer_sign_2.jpg')} width="350px" />
 </div>
 
 您的 Parity Signer 现在将显示一个二维码。要完成交易的签署，切换回 polkadot.js 应用程序，然后点击 `Scan signature via camera` （通过摄像头扫描签署）。
