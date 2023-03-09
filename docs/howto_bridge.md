@@ -17,7 +17,7 @@ To perform XCM transfers for one of the assets listed above, you can use [Basili
 ### 01 Navigate to Cross-chain Transfers
 [https://app.basilisk.cloud/#/cross-chain](https://app.basilisk.cloud/#/cross-chain)
 <div style={{textAlign: 'center'}}>
-  <img src={useBaseUrl('/img/howto_bridge/XCMui.jpg')} />
+  <img src={useBaseUrl('/img/howto_bridge/Snek.png')} />
 </div>
 
 ### 02 Connect Your Account
