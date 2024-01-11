@@ -57,7 +57,15 @@ module.exports = {
         href: 'https://rustdocs.bsx.fi',
       },
       "infra_testnet",
-      "build_xc_integration"
+      "build_xc_integration",
+      {
+        type: "category",
+        label: "Indexers",
+        items: [
+          "indexers_overview",
+          "subquery"
+        ]
+      },
     ],
     "Help with Docs": ["contributing"],
     "Archive": ["basilisk_crowdloan_1"]
